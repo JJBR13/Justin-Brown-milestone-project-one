@@ -12,7 +12,19 @@
 
 # User Eperiences 
 
-## User Stories 
+## User Stroies 
+
+### Holiday Bound clients 
+
+*These are useres already looking for a holiday been refered by family, friends who have already used the service. 
+
+### Limit Holiday Options 
+
+*Defining the user that may have limitting factors for their holiday away, for example: hates flighing or not wanting to leave the contry.
+
+### Travel broker 
+
+*Travel compainies within the industary that use Luv 4-Wheels to provide options to prosective clients as holiday option. 
 
 ## Design 
 
@@ -30,7 +42,7 @@
 
 # Depolyment 
 
-# Refferences & Credit 
+# References & Credit 
 
 ## Code
 
