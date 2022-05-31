@@ -16,7 +16,7 @@ body {
 
 /* Special padding & margins */ 
 
-/* Hero Section  */
+/* -------------------------------------------------------------Hero Section  */
 
 .jumbotron { 
     height: 100vh;
@@ -25,4 +25,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/* -------------------------------------------------------------images */
+
+.image-selector {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
