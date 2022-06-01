@@ -40,3 +40,29 @@ body {
     width: 200px;
     border-radius: 10px;
 }
+
+/* -------------------------------------------------------------Carasol CSS*/
+
+.carousel-item {
+    background-color: orange;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+.pagination {
+    padding-bottom: 30px;
+}
+/* -------------------------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
+
+.row > div {
+    padding: 0 4px !important;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
