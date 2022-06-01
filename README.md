@@ -52,3 +52,7 @@
 
 -[tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
 -[unsplash](https://unsplash.com/): Open resource to get media files, such as images for hero section and galleries. 
+
+## Logo Creation
+
+-Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): This allowed the camper van icon to be used and imported. 

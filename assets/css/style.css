@@ -14,6 +14,20 @@ body {
     font-size: 18px;
 }
 
+/* -------------------------------------------------------------Header*/
+
+.logo {
+    height: 90px;
+    width: 90px;
+    margin-right: 25px;
+}
+
+#header-body {
+    margin-top: -20px;
+    margin-bottom: -10px; 
+    background-color: #4C9F70;
+}
+
 /* Special padding & margins */ 
 
 /* -------------------------------------------------------------Hero Section  */
