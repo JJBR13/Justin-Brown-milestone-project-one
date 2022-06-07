@@ -52,6 +52,7 @@
 
 -[tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
 -[unsplash](https://unsplash.com/): Open resource to get media files, such as images for hero section and galleries. 
+-[Coding.tools](https://coding.tools/hex-to-rgba): Allow ease of convertion of Hex to rgba colours. 
 
 ## Logo Creation
 
