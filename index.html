@@ -8,7 +8,8 @@
     <title>luv 4-Wheels</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        type="text/css">
     <script src="https://kit.fontawesome.com/487ad78726.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
@@ -54,12 +55,14 @@
     <!-- Select Your vibe Block-->
 
     <section>
-        <div>
-            <h2>Select Your Vibe</h2>
-        </div>
-        <div class="container">
+        <div class="container-fluid block-margins">
             <div class="row">
-                <div class="row">
+                <div>
+                    <h2>Select Your Vibe</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
                     <div class="col-12 col-md-4">
                         <img class="image-selector" src="assets/img/modern (2).jpg" alt="Mondern Camper">
                     </div>
@@ -72,15 +75,19 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
 
     <!-- How We Work Block-->
 
     <section>
-        <div>
-            <h2>How We Work</h2>
-        </div>
+        <div class="container-fluid block-margins">
+            <div class="row">
+                <div>
+                    <h2>How We Work</h2>
+                </div>
+            </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6">
@@ -193,7 +200,7 @@
 
             <!-- Gallery code used from code pen, credit Monika Patel -->
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <img src="https://www.w3schools.com/w3images/wedding.jpg" class="img-fluid">
@@ -232,49 +239,51 @@
                 </div>
             </div>
 
-<footer class="container-fluid footer-background">
-    <div class="row overlay align-items-center">
-        <div class="col-12 col-md-6">
-            <h3 class="subscribe">Subscribe</h3>
-            <div class="row">
-                <div class="col">
-                    <form class="form-footer">
-                        <div class="mb-3 inline-block">
-                          <input type="email" class="form-control footer-email" id="exampleInputEmail1" placeholder="Email">
+            <footer class="container-fluid footer-background">
+                <div class="row overlay align-items-center">
+                    <div class="col-12 col-md-6">
+                        <h3 class="subscribe">Subscribe</h3>
+                        <div class="row">
+                            <div class="col">
+                                <form class="form-footer">
+                                    <div class="mb-3 inline-block">
+                                        <input type="email" class="form-control footer-email" id="exampleInputEmail1"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="col inline-block">
+                                        <button type="submit" class="btn btn-primary btn-subscribe hvr-shrink">Sign me
+                                            up!</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        <div class="col inline-block">
-                        <button type="submit" class="btn btn-primary btn-subscribe hvr-shrink">Sign me up!</button>
-                        </div>
-                    </form>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"
+                                        aria-hidden="true"></i></a>
+                                <span class="sr-only">Facebook</span>
+                            </li>
+                            <li class="list-inline-item ">
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
+                                        aria-hidden="true"></i></a>
+                                <span class="sr-only">Instagram</span>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.pinterest.co.uk/" target="_blank"><i
+                                        class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
+                                <span class="sr-only">Pintrest</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center copywrite">
+                        <p class="small">
+                            © Copywrite 2022 Luv 4-wheels
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"
-                            aria-hidden="true"></i></a>
-                    <span class="sr-only">Facebook</span>
-                </li>
-                <li class="list-inline-item ">
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
-                            aria-hidden="true"></i></a>
-                    <span class="sr-only">Instagram</span>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fa-brands fa-pinterest-p"
-                            aria-hidden="true"></i></a>
-                    <span class="sr-only">Pintrest</span>
-                </li>
-            </ul>
-        </div>
-        <div class="col-12 d-flex justify-content-center copywrite">
-            <p class="small">
-                © Copywrite 2022 Luv 4-wheels
-            </p>
-        </div>
-    </div>
-</footer>
+            </footer>
         </section>
 </body>
 

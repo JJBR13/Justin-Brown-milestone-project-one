@@ -4,10 +4,14 @@
 
 /* Font header & bodies default */ 
 
-h1 {
+h1,h2 {
     font-family: 'Lobster', cursive, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
+
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -19,6 +23,11 @@ body {
 .inline-block {
     display: inline-block;    
 }
+
+.block-margins {
+    margin: 50px 10px;
+}
+
 
 /* -------------------------------------------------------------Header*/
 
@@ -47,11 +56,17 @@ body {
     background-size: cover;
 }
 
-/* -------------------------------------------------------------images */
+/* -------------------------------------------------------------Select your vibe*/
+
+.select-vibe {
+    margin: 50px 10px;
+}
+
+/* -------------------------------------------------------------images (steps) */
 
 .image-selector {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -163,11 +178,40 @@ img {
     margin-top: 10px;
 }
 
-/* ---------------------------------------------------------------------------------Media Queries*/
+/* -------------------------------------------------------------------------------------------Media Queries*/
 
-/* ---------- MQ-Footer*/
+/* ---------------------------------------------------------------------------------Tablet*/
+
+@media (min-width: 600px) {
+    .image-selector {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* ---------------------------------------------------------------------------------Mobile*/
 
 @media(min-width: 320px) {
+
+/* -------------------------------------- MQ-jumbotron*/
+
+    .jumbotron {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+/* -------------------------------------- Select your vibe*/
+    .select-vibe {
+        margin: 0;
+    }
+
+    .image-selector {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+/* -------------------------------------- MQ-Footer*/
     .footer-background {
         height: 300px;
     }
