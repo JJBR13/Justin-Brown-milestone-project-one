@@ -90,7 +90,7 @@ body {
 .pagination {
     padding-bottom: 30px;
 }
-/* -------------------------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
+/* -----------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
 
 .row > div {
     padding: 0 4px !important;
@@ -100,6 +100,13 @@ img {
   margin-top: 8px;
   vertical-align: middle;
 
+}
+
+/* ---------------------------------------------------------------------------------Contact Page*/
+
+.image-contain {
+    height:500px;
+    width: 500px;
 }
 
 /* ---------------------------------------------------------------------------------Footer*/
