@@ -24,39 +24,39 @@
     <!-- Image body -->
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <h1 class="col text-center">IMAGE</h1> <!-- REMOVE-->
-
-
                 <img class="mx-auto d-block image-contain" src="assets/img/contact/contact1.jpg" alt="#">
             </div>
 
             <!-- Contact Form -->
 
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <h1 class="text-center">FORM</h1> <!-- REMOVE-->
                 <form>
                     <div class="mb-3 col">
                         <div class="row">
-                            <div class="col-6">
-                                <label for="Name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name"
-                                    placeholder="Name">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Name" class="form-label">Name<span>*</span></label>
+                                <input type="text" class="form-control" id="name" placeholder="Name" required>
                             </div>
-                            <div class="col-6">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="exampleFormControlInput1" class="form-label">Email
+                                    address<span>*</span></label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                                    placeholder="name@example.com" required>
                             </div>
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="row">
-                            <div class="col-12">
-                                <label for="options">Reason for contact:</label>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="options">Reason for contact:<span>*</span></label>
                             </div>
-                            <div class="col-12">
+                            <div class="col-sm-12 col-md-6">
+                                <select name="options" id="r-contact" class="form-control" required>
+
                                     <option value="r-1">Want to hire van</option>
                                     <option value="r-2">Question about our vans</option>
                                     <option value="r-3">Schedule a call back</option>
@@ -69,16 +69,18 @@
 
                     <div class="col">
                         <div class="row">
-                            <div class="col">
-                                <input type="checkbox" id="modern" name="modern" value="modern-style">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="radio">Selct your style:</label><br>
+
+                                <input type="radio" id="modern" name="checkone" value="modern-style">
                                 <label for="modern"> Modern</label><br>
-                                <input type="checkbox" id="bohiemium" name="bohiemium" value="bohiemium-style">
+                                <input type="radio" id="bohiemium" name="checkone" value="bohiemium-style">
                                 <label for="bohiemium"> Bohiemium</label><br>
-                                <input type="checkbox" id="basic" name="basic" value="basic-style">
+                                <input type="radio" id="basic" name="checkone" value="basic-style">
                                 <label for="basic"> Basic</label>
                             </div>
 
-                            <div class="col">
+                            <div class="col-sm-12 col-md-6">
                                 <label for="date">Selcect desired Dates</label>
                                 <input id="date" class="form-control" type="date">
                             </div>
@@ -86,19 +88,20 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label">Message<span>*</span></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Insert your message here..." required></textarea>
                     </div>
 
                     <div class="mb-3">
                         <div class="terms-conditons">
-                          <input class="form-check-input" type="checkbox" required>
-                          <label class="form-check-label" for="disabledFieldsetCheck">
-                            I have read terms & conditons <a href="#">read here</a>
-                          </label>
+                            <input class="form-check-input" type="checkbox" required>
+                            <label class="form-check-label" for="disabledFieldsetCheck">
+                                I have read terms & conditons <a href="#">read here</a>
+                            </label>
                         </div>
-                      </div>
-                      <button type="submit" class="btn btn-primary mx-auto d-block">Send Now</button>
+                    </div>
+                    <button type="submit" class="btn btn-primary mx-auto d-block">Send Now</button>
             </div>
         </div>
     </div>
