@@ -25,7 +25,8 @@ body {
 }
 
 .block-margins {
-    margin: 50px 10px;
+    margin: 50px 0px;
+    padding: 2em;
 }
 
 
@@ -71,8 +72,8 @@ body {
 }
 
 .square {
-    height: 200px;
-    width: 200px;
+    height: 80%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -114,23 +115,29 @@ img {
 .footer-background {
     background: url('../img/footer/bg-footer.jpg') no-repeat center;  
     margin-top: 20px; 
-    background-position: bottom center;
+    background-position: top center;
     object-fit: contain;
-    height: 200px;
+    height: 100%;
+    width: 100%;
 }
 
 .overlay {
    background: rgba(205,204,204,0.3);
    height: 100%;
-   padding: 32px 16px 16px 16px;
+   width: 100%;
+}
+
+.footer-margins {
+    margin-top: 50px;
+    padding: 2em;
 }
 
 .footer-email{
     margin-top: 10px;
     width: 100%;
-    position: inline;
     border-width: 2px;
     border-color: #1E757C;
+    align-items: flex-start;
 }
 
 .subscribe {
@@ -139,7 +146,6 @@ img {
 }
 
 .social-links {
-    margin-left: 350px;
     margin-top: 10px;
     position: inline;
 }
@@ -152,6 +158,8 @@ img {
     border-color: #F2F2F2;
     border-radius: 5px;
     padding: 8px;
+    margin-top: 11px;
+    
 }
 
 .btn-subscribe:hover {
@@ -187,52 +195,33 @@ img {
 
 /* -------------------------------------------------------------------------------------------Media Queries*/
 
-/* ---------------------------------------------------------------------------------Tablet*/
+/*-----------------Mobile-------------*/
 
-@media (min-width: 600px) {
-    .image-selector {
-        height: 200px;
-        width: 200px;
+@media(min-width: 320px) {
+    .footer-center {
+        text-align: center;
     }
 }
 
-/* ---------------------------------------------------------------------------------Mobile*/
 
-@media(min-width: 320px) {
+/*-----------------Tablet -------------*/
 
-/* -------------------------------------- MQ-jumbotron*/
-
-    .jumbotron {
-        height: 300px;
-        margin-bottom: 30px;
+@media(min-width: 720px) {
+    .social-links {
+        text-align: end;
+        margin-top: 60px;
     }
 
-/* -------------------------------------- Select your vibe*/
-    .select-vibe {
-        margin: 0;
+    .subscribe, .footer-email {
+        text-align: left;
+        margin: 10px 30px;
     }
+}
 
-    .image-selector {
-        height: 300px;
-        width: 300px;
-        margin-bottom: 10px;
-    }
+/*-----------------Laptops Above -------------*/
 
-/* -------------------------------------- MQ-Footer*/
-    .footer-background {
-        height: 300px;
-    }
-    .social-links, .form-footer, .subscribe {
-        text-align: center;
-        margin: 0;
-    }
-    .subscribe { 
-        margin-bottom: 15px;
-    }
+@media(min-width: 992px) {
     .btn-subscribe {
-        font-size: 14px;
-    }
-    .copywrite {
-        font-size: 11px;
-    }
+        margin-right: 140px;
+        }
 }
