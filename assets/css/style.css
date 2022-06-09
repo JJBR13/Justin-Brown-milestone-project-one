@@ -8,6 +8,7 @@ h1,h2 {
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 30px;
     font-weight: 300;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -16,19 +17,23 @@ h1,h2 {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    background-color: #C4CBCA;
 }
 
-/* -------------------------------------------------------------Special maragins & Paddings*/
+/* -------------------------------------------------------------Special maragins, Paddings & Backgrounds*/
 
 .inline-block {
     display: inline-block;    
 }
 
-.block-margins {
-    margin: 50px 0px;
+.block-paddings {
     padding: 2em;
 }
 
+.color-bg {
+    background-color: #496F5D;
+
+}
 
 /* -------------------------------------------------------------Header*/
 
@@ -83,9 +88,41 @@ body {
 
 /* -------------------------------------------------------------Select your vibe*/
 
-.select-vibe {
-    margin: 50px 10px;
+.sv-height {
+    height: 500px;
+    width: 100%;
 }
+
+.card {
+    --bs-card-spacer-y: 30%;
+    --bs-card-spacer-x: 30%;
+}
+
+.card1 {
+    background: url(../img/modern\ \(2\).jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.card2 {
+    background: url(../img/bohiem.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
 
 /* -------------------------------------------------------------images (steps) */
 
