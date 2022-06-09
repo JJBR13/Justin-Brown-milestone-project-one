@@ -1,6 +1,6 @@
 /* Google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;500;600&display=swap');
 
 /* Font header & bodies default */ 
 
@@ -48,13 +48,37 @@ body {
 
 /* -------------------------------------------------------------Hero Section  */
 
-.jumbotron { 
+.hero-container { 
     height: 100vh;
-    background: url(../img/Hero\ Image.jpg) no-repeat content-box center;
+
+    background: url(../img/Hero\ Image.jpg) no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.d-overlay {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+.hero-text {
+    color: #F2F2F2;
+      
+}
+
+.hero-text h1 {
+    font-size: 60px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
 }
 
 /* -------------------------------------------------------------Select your vibe*/
@@ -198,6 +222,7 @@ img {
 /*-----------------Mobile-------------*/
 
 @media(min-width: 320px) {
+
     .footer-center {
         text-align: center;
     }
