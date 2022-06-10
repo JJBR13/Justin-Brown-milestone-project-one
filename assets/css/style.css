@@ -164,6 +164,26 @@ img {
 
 }
 
+/* ---------------------------------------------------------------------------------View van Page*/
+
+.van-hero { 
+    height: 100vh;
+
+    background: url(../img/view-vans/retro\ road\ hero.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.name-links {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 50px;
+    list-style-type: none;
+    line-height: 2em;
+}
+
+
 /* ---------------------------------------------------------------------------------Contact Page*/
 
 .image-contain {
