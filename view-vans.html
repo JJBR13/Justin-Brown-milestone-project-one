@@ -17,17 +17,42 @@
 
 <body>
 
-    <!-- Page Head -->
+    <header>
+        <nav class="navbar navbar-expand-md nav-item">
+            <div id="header-body" class="container-fluid">
+                <img class="logo" src="assets/img/logo/logo_solid.png" alt="Business logo">
 
-    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="view-vans.html">View Vans</a>
+                        </li>
+                    </ul>
+                    <span>
+                        <a href="contact.html" class="btn hvr-shrink" role="button">Get in touch now!</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     <section>
         <div class="container-fluid van-hero g-0">
             <div class="row d-overlay">
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <div class="hero-text">
+                    <div class="">
 
-                       <!--- Add mini nav menu -->
-                       
+                        <!--- Add mini nav menu -->
+
                         <ul class="name-links text-center">
                             <li>
                                 <a class="nav-link active" aria-current="page" href="index.html">Modern</a>
@@ -49,38 +74,86 @@
     </section>
 
     <!--Modern-->
-<section class="color-bg d-flex justify-content-center">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 d-flex justify-content-center">
-                <h2>Modern</h2>
-            </div>
-
-            <div class="col-6 d-flex justify-content-center">
-                <p> Image here </p>
-            </div>
-
-            <div class="col-6">
-
-                <div class="col-6 col-12 d-flex justify-content-center">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reiciendis tempora eveniet
-                        voluptatibus obcaecati rem voluptatem natus ipsum animi quidem, deleniti cum veritatis,
-                        quibusdam necessitatibus, eligendi earum? Voluptates, asperiores quisquam!</p>
-                </div>
-
-                <div class="col-6 col-12 d-flex justify-content-center">
-                    <h5><strong>Pick-up locations all around the UK</strong></h5>
-                </div>
+    <section class="color-bg d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
 
                 <div class="col-12 d-flex justify-content-center">
-                    <button type="button" class="btn-info">Book Now</button>
+                    <h2>Modern</h2>
                 </div>
 
+                <div class="col-6 d-flex justify-content-center">
+                    <p> Image here </p>
+                </div>
+
+                <div class="col-6">
+
+                    <div class="col-6 col-12 d-flex justify-content-center">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reiciendis tempora eveniet
+                            voluptatibus obcaecati rem voluptatem natus ipsum animi quidem, deleniti cum veritatis,
+                            quibusdam necessitatibus, eligendi earum? Voluptates, asperiores quisquam!</p>
+                    </div>
+
+                    <div class="col-6 col-12 d-flex justify-content-center">
+                        <h5><strong>Pick-up locations all around the UK</strong></h5>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn-info">Book Now</button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <footer class="footer-background footer-center">
+        <div class="conatiner-fluid footer-margins overlay">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h3 class="subscribe">Subscribe</h3>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <form class="form-footer d-flex">
+                                <div class="col-sm-6 mb-3 col-md-12">
+                                    <input type="email" class="form-control footer-email" id="exampleInputEmail1"
+                                        placeholder="Email">
+                                </div>
+                                <div class="col-sm-6 col-md-12 inline-block">
+                                    <button type="submit" class="btn btn-primary btn-subscribe hvr-shrink">
+                                        Sign me up!
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Facebook</span>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Instagram</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fa-brands fa-pinterest-p"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Pintrest</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 text-center copywrite">
+                <p class="small"> © Copywrite 2022 Luv 4-wheels</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

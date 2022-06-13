@@ -21,7 +21,35 @@
 
 <body>
 
+    <header>
+        <nav class="navbar navbar-expand-md nav-item">
+            <div id="header-body" class="container-fluid">
+                <img class="logo" src="assets/img/logo/logo_solid.png" alt="Business logo">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="view-vans.html">View Vans</a>
+                        </li>
+                    </ul>
+                    <span>
+                        <a href="contact.html" class="btn hvr-shrink" role="button">Get in touch now!</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <!-- Image body -->
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
@@ -106,6 +134,53 @@
         </div>
     </div>
     </form>
+
+    <footer class="footer-background footer-center">
+        <div class="conatiner-fluid footer-margins overlay">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h3 class="subscribe">Subscribe</h3>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <form class="form-footer d-flex">
+                                <div class="col-sm-6 mb-3 col-md-12">
+                                    <input type="email" class="form-control footer-email" id="exampleInputEmail1"
+                                        placeholder="Email">
+                                </div>
+                                <div class="col-sm-6 col-md-12 inline-block">
+                                    <button type="submit" class="btn btn-primary btn-subscribe hvr-shrink">
+                                        Sign me up!
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Facebook</span>
+                        </li>
+                        <li class="list-inline-item ">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Instagram</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fa-brands fa-pinterest-p"
+                                    aria-hidden="true"></i></a>
+                            <span class="sr-only">Pintrest</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 text-center copywrite">
+                <p class="small"> © Copywrite 2022 Luv 4-wheels</p>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Boostrap -->
