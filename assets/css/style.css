@@ -293,10 +293,61 @@ ul {
     width: 80%;
 }
 
-.form-padding {
+.contact-padding {
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem;
+}
+
+.label-form {
+    font-size: 18px;
+    font-family: 'Lobster', cursive, sans-serif;
+    color: #496F5D;
+}
+
+.form-content {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#contact-carousel img {
+    border-radius: 10px;
+}
+
+.padding-image {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.hover-form:focus {
+    border-width: 2px;
+    border-color: #496F5D;
+    outline: 0;
+    box-shadow: none;
+}
+
+.hover-form:hover {
+    border-width: 0px;
+    box-shadow: 0 0 0 0.15rem rgba(30,117,124,0.2);
+}
+
+/* --------------------------------------------------------------------------------- T&C Page*/
+
+.tc-img { 
+        height: 50vh;
+        margin-top: -22px;
+        background: url(../img/footer/bg-footer.jpg) no-repeat center top fixed;
+        -webkit-background-size: contatin;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+.terms-margin {
+    margin-top: 85px;
 }
 
 /* ---------------------------------------------------------------------------------Footer*/
