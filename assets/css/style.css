@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;500;600&display=swap');
 
-/* Font header & bodies default */ 
+/*---------------------------------------------------------------- Font header & bodies default */ 
 
 h1,h2 {
     font-family: 'Lobster', cursive, sans-serif;
@@ -33,6 +33,14 @@ body {
 .color-bg {
     background-color: #496F5D;
 
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.hide-content {
+    display: none;
 }
 
 /* -------------------------------------------------------------Header*/
@@ -78,10 +86,6 @@ body {
     border-color: #ffffff;
     border-radius: 5px;
 }
-
-
-
-/* Special padding & margins */ 
 
 /* -------------------------------------------------------------Hero Section  */
 
@@ -287,6 +291,12 @@ ul {
 .image-contain {
     height: 50%;
     width: 80%;
+}
+
+.form-padding {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* ---------------------------------------------------------------------------------Footer*/
