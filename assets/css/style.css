@@ -172,7 +172,7 @@ body {
 
 /* -------------------------------------------------------------Carasol CSS*/
 
-.carousel-item {
+.carousel-item1 {
     background-color: orange;
     height: 150px;
     width: 100%;
@@ -200,7 +200,7 @@ img {
 
 .van-hero { 
     height: 100vh;
-
+    margin-top: -22px;
     background: url(../img/view-vans/retro_hero.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -208,13 +208,79 @@ img {
     background-size: cover;
 }
 
-.name-links {
-    font-family: 'Lobster', cursive, sans-serif;
-    font-size: 50px;
+ul {
     list-style-type: none;
-    line-height: 2em;
 }
 
+.nav-link-view-vans {
+    font-family: 'Lobster', cursive, sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 2em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-link-view-vans:hover {
+    color: #1E757C;
+    text-shadow: 2px 2px white;
+}
+
+.title-vv {
+    font-size: 45px;
+    color: #C4CBCA;
+    text-shadow: 2px 2px black;
+}
+
+#slideshow {
+    padding: 0px 90px 50px 50px;
+    margin-top: -25px;
+}
+
+.carosel-style {
+    border-radius: 5px;
+}
+
+.content-text {
+    color: #F2F2F2;
+}
+
+.green-content-text {
+    color: #4C9F70;
+}
+
+.single-sentence {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.btn-book-now {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 20px;
+    color: #4C9F70;
+    background-color: #CDCCCC;
+    padding: 10px;
+    border: 2%;
+    border-color: #4C9F70;
+    border-radius: 3px;
+}
+
+.btn-book-white {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 20px;
+    color: #4C9F70;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2%;
+    border-color: #4C9F70;
+    border-radius: 3px;
+}
+
+.title-vv-grey-bg {
+    color: #1E757C;
+    text-shadow: 2px 2px white;
+    font-size: 45px;
+}
 
 /* ---------------------------------------------------------------------------------Contact Page*/
 

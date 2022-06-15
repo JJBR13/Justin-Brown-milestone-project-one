@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>luv 4-Wheels</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo/logo@4x.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        type="text/css">
     <script src="https://kit.fontawesome.com/487ad78726.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
@@ -49,21 +49,21 @@
         <div class="container-fluid van-hero g-0">
             <div class="row d-overlay">
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <div class="">
+                    <div class="list-text">
 
                         <!--- Add mini nav menu -->
 
                         <ul class="name-links text-center">
                             <li>
-                                <a class="nav-link active" aria-current="page" href="index.html">Modern</a>
+                                <a href="#modern" class="nav-link-view-vans hvr-grow">Modern</a>
                             </li>
 
                             <li>
-                                <a class="nav-link active" aria-current="page" href="index.html">Bohemian</a>
+                                <a href="#bohemian" class="nav-link-view-vans hvr-grow">Bohemian</a>
                             </li>
 
                             <li>
-                                <a class="nav-link active" aria-current="page" href="index.html">Retro</a>
+                                <a  href="#retro" class="nav-link-view-vans hvr-grow" >Retro</a>
                             </li>
 
                         </ul>
@@ -79,33 +79,191 @@
             <div class="row">
 
                 <div class="col-12 d-flex justify-content-center">
-                    <h2>Modern</h2>
+                    <h2 id="modern" class="title-vv">Modern</h2>
                 </div>
+
+                <!-- Image Carosel -->
 
                 <div class="col-6 d-flex justify-content-center">
-                    <p> Image here </p>
+
+                    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/view-vans/modern_vans/m_1.jpg" class="d-block w-100 carosel-style"
+                                    alt="Van with mountain view">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_2.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_3.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 content-text">
 
-                    <div class="col-6 col-12 d-flex justify-content-center">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reiciendis tempora eveniet
-                            voluptatibus obcaecati rem voluptatem natus ipsum animi quidem, deleniti cum veritatis,
-                            quibusdam necessitatibus, eligendi earum? Voluptates, asperiores quisquam!</p>
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <p>Our modern campers are just a great way to get away, from your traditional style to converted
+                            vans. Commonly come fitted with a functioning kitchen, shower and toilet.... for when those
+                            moment you get caught short. </p>
                     </div>
 
-                    <div class="col-6 col-12 d-flex justify-content-center">
-                        <h5><strong>Pick-up locations all around the UK</strong></h5>
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <h5 class="single-sentence"><strong>Pick-up locations all around the UK</strong></h5>
                     </div>
 
-                    <div class="col-12 d-flex justify-content-center">
-                        <button type="button" class="btn-info">Book Now</button>
+                    <div class="col-12 d-flex justify-content-center mt-4">
+                        <button type="button" class="btn-book-now hvr-grow">Book Now</button>
                     </div>
 
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Bohiemian -->
+
+    <section class="d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 id="bohemian" class="title-vv-grey-bg">Bohemian</h2>
+                </div>
+
+                <!-- Image Carosel -->
+
+                <div class="col-6 d-flex justify-content-center">
+
+                    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/view-vans/modern_vans/m_1.jpg" class="d-block w-100 carosel-style"
+                                    alt="Van with mountain view">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_2.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_3.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="col-6 green-content-text">
+
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <p>Feel fresh, beachy clean vibe. Allow the adventure to travel in ultimate zen headspace,
+                            whether set up on the beach or Woodland this van will meet all the needs for your exploring
+                        </p>
+                    </div>
+
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <h5 class="single-sentence"><strong>Pick-up locations all around the UK</strong></h5>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center mt-4">
+                        <button type="button" class="btn-book-white hvr-grow">Book Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Retro -->
+
+    <section class="color-bg d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 id="retro" class="title-vv">Retro</h2>
+                </div>
+
+                <!-- Image Carosel -->
+
+                <div class="col-6 d-flex justify-content-center">
+
+                    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/view-vans/modern_vans/m_1.jpg" class="d-block w-100 carosel-style"
+                                    alt="Van with mountain view">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_2.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/view-vans/modern_vans/m_3.jpg" class="d-block w-100 carosel-style"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="col-6 content-text">
+
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <p>Our modern campers are just a great way to get away, from your traditional style to converted
+                            vans. Commonly come fitted with a functioning kitchen, shower and toilet.... for when those
+                            moment you get caught short. </p>
+                    </div>
+
+                    <div class="col-6 col-12 d-flex justify-content-center mt-3">
+                        <h5 class="single-sentence"><strong>Pick-up locations all around the UK</strong></h5>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center mt-4">
+                        <button type="button" class="btn-book-now hvr-grow">Book Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+   
 
     <footer class="footer-background footer-center">
         <div class="conatiner-fluid footer-margins overlay">
@@ -154,6 +312,12 @@
         </div>
     </footer>
 
+
+    <!-- Jquery -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
