@@ -12,6 +12,24 @@ h1,h2 {
     margin-bottom: 40px;
 }
 
+.white {
+    color: #ffffff;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blue {
+    color: #1E757C;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 
 body {
@@ -124,9 +142,20 @@ body {
 
 /* -------------------------------------------------------------Select your vibe*/
 
-.sv-height {
-    height: 500px;
-    width: 100%;
+.card-title {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #1E757C;
+}
+
+.card-title:hover {
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 25px;
+    color: #1E757C;
+    text-decoration: none;
+    text-shadow: 2px 2px white;
 }
 
 .card {
@@ -134,8 +163,25 @@ body {
     --bs-card-spacer-x: 30%;
 }
 
+.card-img-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background-color: rgba(27,36,48,0.4);
+    border-radius: 5px;
+}
+
+.card-img-body:hover {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background-color: rgba(249,242,237,0.4);
+    border-radius: 5px;
+}
+
+
 .card1 {
-    background: url(../img/modern\ \(2\).jpg) no-repeat center;
+    background: url(../img/home/modern.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,7 +193,7 @@ body {
 }
 
 .card2 {
-    background: url(../img/bohiem.jpg) no-repeat center;
+    background: url(../img/home/bohiem.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -158,6 +204,17 @@ body {
     border: none;
 }
 
+.card3 {
+    background: url(../img/home/retro.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    border: none;
+}
 
 
 /* -------------------------------------------------------------images (steps) */
