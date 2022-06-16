@@ -217,19 +217,52 @@ body {
 }
 
 
-/* -------------------------------------------------------------images (steps) */
+/* -------------------------------------------------------------How We Work */
 
-.image-selector {
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background-color: rgba(27,36,48,0.4);
+    border-radius: 5px;
+}
+
+.how1 {
+    background: url(../img/home/rooftop_camper.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    border: none;
 }
 
-.square {
-    height: 80%;
-    width: 80%;
-    border-radius: 10px;
+.how2 {
+    background: url(../img/home/campfire.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    border: none;
 }
+
+.how3 {
+    background: url(../img/home/tuscony.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
 
 /* -------------------------------------------------------------Carasol CSS*/
 
@@ -308,6 +341,14 @@ ul {
 
 .green-content-text {
     color: #4C9F70;
+}
+
+.blue-content-text {
+    color: #1E757C;
+}
+
+.black-content-text {
+    color: black;
 }
 
 .single-sentence {
