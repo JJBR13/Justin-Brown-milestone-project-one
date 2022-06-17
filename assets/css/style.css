@@ -30,8 +30,6 @@ h1,h2 {
     margin-bottom: 40px;
 }
 
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -60,6 +58,8 @@ body {
 .hide-content {
     display: none;
 }
+
+
 
 /* -------------------------------------------------------------Header*/
 
