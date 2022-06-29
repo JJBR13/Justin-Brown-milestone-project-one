@@ -583,6 +583,12 @@ ul {
         margin-left: 0;
     }
 
+    #steps {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0;
+    }
+
     .footer-center {
         text-align: center;
     }
@@ -596,6 +602,14 @@ ul {
     #sub-heading {
         text-align: start;
         margin-left: 2rem;
+    }
+
+    .p-start {
+        padding-left: 3rem;
+    }
+
+    .p-end {
+        padding-right: 3rem;
     }
 
     .social-links {
