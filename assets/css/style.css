@@ -277,7 +277,7 @@ body {
      height: 200px; 
      margin-bottom: 1em;
     }
-
+    
 .carousel-caption {
      position: absolute;
      right: 15%;
@@ -285,10 +285,13 @@ body {
      left: 15%;
      padding-top: 1.25rem;
      padding-bottom: 1.25rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
      color: #fff;
      text-align: center;
-     background-color: rgba(255,255,255,0.2);
+     background-color: rgba(255,255,255,0.4);
      border-radius: 10px;
+     color: #1E757C;
 }
 
 .carousel-indicators {
@@ -301,10 +304,19 @@ body {
     justify-content: center;
     padding: 0;
     margin-right: 15%;
-    margin-bottom: 2rem;
     margin-left: 15%;
     list-style: none;
 }
+
+.review {
+    font-size: 15px;
+}
+
+.profile {
+    font-size: 13px;
+    font-style: italic;
+}
+
 /* -----------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
 
 .gallery-padding {
