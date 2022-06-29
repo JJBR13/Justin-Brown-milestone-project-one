@@ -315,6 +315,8 @@ body {
 .profile {
     font-size: 13px;
     font-style: italic;
+    font-weight: 200;
+    margin-top: 25px;
 }
 
 /* -----------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
@@ -576,6 +578,11 @@ ul {
 
 @media(min-width: 320px) {
 
+    #sub-heading {
+        text-align: center;
+        margin-left: 0;
+    }
+
     .footer-center {
         text-align: center;
     }
@@ -585,6 +592,12 @@ ul {
 /*-----------------Tablet -------------*/
 
 @media(min-width: 720px) {
+
+    #sub-heading {
+        text-align: start;
+        margin-left: 2rem;
+    }
+
     .social-links {
         text-align: end;
         margin-top: 60px;
