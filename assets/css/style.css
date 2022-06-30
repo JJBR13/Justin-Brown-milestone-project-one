@@ -367,9 +367,16 @@ ul {
     text-shadow: 2px 2px black;
 }
 
-#slideshow {
-    padding: 0px 90px 50px 50px;
-    margin-top: -25px;
+.carosel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+
+#van-style img {
+    height: 00px;
+    width: 400px;
+    margin: auto;
 }
 
 .carosel-style {
