@@ -621,6 +621,15 @@ ul {
 
 @media(min-width: 720px) {
 
+    #button-remove{
+        background-color: #496F5D;
+        border: solid 2px;
+        border-color: #ffffff;
+        border-radius: 5px;
+        padding: 0.5em;
+        margin-top: 20px;
+    }
+
     #sub-heading {
         text-align: start;
         margin-left: 2rem;
