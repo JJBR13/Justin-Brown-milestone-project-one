@@ -105,6 +105,19 @@ body {
     border-radius: 5px;
 }
 
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: #1E757C;
+    background-color: transparent;
+    border: var(--bs-border-width) solid;
+    border-color: #1E757C;
+    border-width: 3px;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
 /* -------------------------------------------------------------Hero Section  */
 
 .hero-container { 
@@ -573,6 +586,16 @@ ul {
 
 @media(min-width: 320px) {
 
+    #button-remove {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: medium;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
     #sub-heading {
         text-align: center;
         margin-left: 0;
@@ -582,6 +605,10 @@ ul {
         text-align: center;
         margin-top: 2rem;
         padding: 0;
+    }
+
+    .contact-padding {
+        margin-top: 30px;
     }
 
     .footer-center {
