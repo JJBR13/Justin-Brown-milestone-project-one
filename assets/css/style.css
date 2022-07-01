@@ -458,7 +458,11 @@ ul {
     font-weight: 300;
 }
 
-#contact-carousel img {
+#contact-img {
+    height: 100%;
+}
+
+#contact-img img {
     border-radius: 10px;
 }
 
@@ -481,7 +485,7 @@ ul {
     box-shadow: 0 0 0 0.15rem rgba(30,117,124,0.2);
 }
 
-/* --------------------------------------------------------------------------------- T&C Page*/
+/* --------------------------------------------------------------------------------- Cancellation Page*/
 
 .cancel-img { 
         height: 50vh;
