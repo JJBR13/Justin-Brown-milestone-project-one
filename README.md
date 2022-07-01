@@ -107,3 +107,5 @@
 ## Credit 
 
 - Monika Patel: design layout for the "Feel The Wanderlust" gallery located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
+
+- Occasion Help: allowing simple and clear text to be formualted for the cancellation_policy.html [Find Here](https://help.getoccasion.com/article/506-sample-cancellation-and-refund-policies)
