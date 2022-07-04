@@ -360,6 +360,19 @@ ul {
     list-style-type: none;
 }
 
+.carousel-item-van {
+    height: auto;
+}
+
+.view-van-carousel {
+    overflow: hidden;
+} 
+
+
+.carousel-position {
+    border-radius: 10px;
+}
+
 .nav-link-view-vans {
     font-family: 'Lobster', cursive, sans-serif;
     color: #ffffff;
@@ -611,6 +624,10 @@ ul {
         padding: 0;
     }
 
+    #square-carousel {
+        padding: 0;
+    }
+
     .contact-padding {
         margin-top: 30px;
     }
@@ -647,6 +664,13 @@ ul {
         padding-right: 3rem;
     }
 
+    #square-carousel {
+        height: 400px;
+        width: 400px;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
     .social-links {
         text-align: end;
         margin-top: 60px;
@@ -661,6 +685,7 @@ ul {
 /*-----------------Laptops Above -------------*/
 
 @media(min-width: 992px) {
+
     .btn-subscribe {
         margin-right: 140px;
         }
