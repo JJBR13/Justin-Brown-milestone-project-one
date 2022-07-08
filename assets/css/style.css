@@ -405,10 +405,6 @@ ul {
     color: black;
 }
 
-.blue-content-text {
-    color: #1E757C;
-}
-
 .single-sentence {
     font-size: 18px;
     text-transform: capitalize;
@@ -417,23 +413,20 @@ ul {
 .btn-book-now {
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 20px;
-    color: black;
-    background-color: #CDCCCC;
-    padding: 10px;
+    color: #ffffff;
+    background-color: #496F5D;
+    padding: 1em;
     border: 2%;
-    border-color: #4C9F70;
-    border-radius: 3px;
+    border-color: #ffffff;
+    border-radius: 5px;
 }
 
-.btn-book-white {
-    font-family: 'Lobster', cursive, sans-serif;
-    font-size: 20px;
-    color: #4C9F70;
+.btn-book-now:hover {
     background-color: #ffffff;
-    padding: 10px;
+    color: #496F5D;
     border: 2%;
-    border-color: #4C9F70;
-    border-radius: 3px;
+    border-color: #496F5D;
+    border-radius: 5px;
 }
 
 .title-vv-grey-bg {
@@ -550,20 +543,28 @@ ul {
 }
 
 .btn-subscribe {
-    font-size: 13px;
-    color: black;
-    background: #4C9F70;
-    border: 2px;
-    border-color: #F2F2F2;
-    border-radius: 5px;
-    padding: 8px;
-    margin-top: 11px;
-}
-
+        font-family: 'Lobster', cursive, sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #496F5D;
+        margin-top: 11px;
+        padding: 0.5em;
+        border: 2%;
+        border-color: #ffffff;
+        border-radius: 2px;
+    }
+    
 .btn-subscribe:hover {
-    background: #1E757C;
-    border-color: #F2F2F2;
-}
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #496F5D;
+    padding: 0.25em;
+    border: 2%;
+    border-color: #ffffff;
+    border-radius: 2px;
+    }
+
 
 /* ---------------- utilised and sourced from CI resume project */
 
@@ -680,6 +681,10 @@ ul {
 
 @media(min-width: 992px) {
 
+    .top-text-padding {
+        padding-top: 2rem;
+    }
+    
     .btn-subscribe {
         margin-right: 140px;
         }
