@@ -108,7 +108,7 @@
   - Cancellation policy: Simply page stating the policy of calcellation. 
 - All pages have feature buttons/ call to actions or internal links to allow easy, comprehensive navigations through the entirity of the site. Allowing for a better user experience. 
 
-## Nav-bar 
+### Nav-bar 
 
 - The Nav-bar was located through-out all pages in the same format to allow consitancy and ease provided when using the site. 
 - In desktop & tablet view the nav-bar is horozontally position in list format with a button loacated on right side to contact the company. 
@@ -116,7 +116,7 @@
 
 - The nav-bar is responsive meaning when 325px is reached (mobile devices) the nav-bar moves into hamburger format, allowing the screen not to be conjested. Further the button style is removed and appears as other pages, do within the hamburger dropdown. 
 
-## 404 Error Page 
+### 404 Error Page 
 
 - This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the userer to navigate back to the hompage if an error happens when navigating the site. 
 -This features in-line CSS styling and a simple link back to the hompage. By having inline styling in there is any issue relates to stlye.css file or bootstrap documentations this page still be active and within selected style. 
