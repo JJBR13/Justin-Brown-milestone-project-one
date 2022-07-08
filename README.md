@@ -3,7 +3,7 @@
 
 <h2 align="center"><img></h2>
 
-<h2 align="center"> DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website for the developers portfolio and completions of Code Institutes course</h2>
+* DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website for the developers portfolio and completions of Code Institutes course
 
 # Live Poject 
 
