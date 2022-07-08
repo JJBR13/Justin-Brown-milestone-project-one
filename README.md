@@ -1,13 +1,15 @@
 # Luv 4-Wheels 
-## Milestone Project 1 - Static Front-End Website 
+# Milestone Project 1 - Static Front-End Website 
 
 <h2 align="center"><img></h2>
 
-## Live Poject 
+<h2 align="center"> DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website for the developers portfolio and completions of Code Institutes course</h2>
+
+# Live Poject 
 
 [View live project here](https://jjbr13.github.io/Justin-Brown-milestone-project-one/)
 
-## Repository 
+# Repository 
 
 [Locate project reppository here](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
 
@@ -21,17 +23,23 @@
 - [Design](#design)
     + [Colour Pallette](#colour-pallette)
     + [Typography](#typography)
-    + [Images]
+    + [Images](#images)
 - [Website Constuction](#website-constuction)
+    + [Website Layout](#webpage-layout)
+    + [Nav-bar](#nav-bar)
+    + [404 Error Page](#404-error-page)
 - [Current Features](#current-features)
+    + [Responsive On All Devices](#responsive-on-all-devices)
 - [Future Releases](#future-releases)
+    + [Adding More Content](#adding-more-content)
+    + [Booking System](#booking-system)
+    + [App](#app)
 - [Languages Used](#languages-used)
+- [Libaries, Frameworks & Programs](#libaries-frameworks--programs)
+- [Deployment](#depolyment)
+    + [GitHub Pages](#github-pages)
 - [References & Credit](#references--credit)
-
-
-
-
-
+    + [Logo Creation](#logo-creation)
 
 
 # User Eperience
@@ -89,7 +97,7 @@
 
 ## Website Constuction 
 
-## Webpage Layout 
+### Webpage Layout 
 
  [Click here for Wireframe PDF](#)
 
@@ -139,9 +147,34 @@
 - [HTML5](https://www.w3schools.com/whatis/whatis_html.asp)
 - [CSS3](https://www.w3schools.com/whatis/whatis_css.asp)
 
+# Testing 
+
 ## Libaries, Frameworks & Programs 
 
-# Testing 
+## Framework
+
+- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
+  - Bootstrap v5.2 was used through the entire site to make it responsive. Through using containers, grid system, D-flex and buttom classes. Further sourcing documentation tor produce Nav-bar, contact-form, carousel and buttons.
+
+- [Google Fonts](https://fonts.google.com/)
+ - Fonts were selected for the site from the libary and imported to style.CSS file 
+
+- [Github](https://github.com/)
+  - Used to create and store the project repository.
+
+- [Gitpod](https://gitpod.io/)
+  - Gitpod was installed to create all files and were the code was written.
+
+- [jQuery](https://jquery.com/)
+  - jQuery enabling functions of carousel, nav-bar responsitivity and button hover animations 
+
+- [Balsamiq](https://balsamiq.com/)
+   -Allowed creation of the wireframes. 
+
+- [Adobe Suite](https://www.adobe.com/uk/)
+  - Used to adjust/ enhance images and create the logo for the bussiness. 
+  
+
 
 # Depolyment 
 
@@ -158,17 +191,15 @@
 
 # References & Credit 
 
-## Framework
+## References
 
-- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
-
-## Media
+### Media
 
 - [tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
-- [unsplash](https://unsplash.com/): Open resource to get media files, such as images for hero section and galleries. 
+- [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/photos/search/) : Open resources to get media files, such as images for hero section and galleries. 
 - [Coding.tools](https://coding.tools/hex-to-rgba): Allow ease of convertion of Hex to rgba colours. 
 
-## Logo Creation
+### Logo Creation
 
 - Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): This allowed the camper van icon to be used and imported. 
 
