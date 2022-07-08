@@ -21,14 +21,15 @@
         }
 
         .all {
-            margin: 50px;
-            padding: 40px;
             background: url("assets/img/footer/bg-footer.jpg") no-repeat center / cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
 
         .content-404 {
             width: 100%;
-            padding: 10px;
             display: flex;
             background-color: rgba(60, 60, 60, 0.5);
             color: #fff;
@@ -36,6 +37,16 @@
             align-items: center;
             flex-direction: column;
         }
+
+        .content-404 a {
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        .content-404 a:hover {
+            border-bottom: 2px solid #4C9F70;
+        }
+
     </style>
 </head>
 
@@ -44,6 +55,7 @@
 <body>
     <div class="all">
         <div class="content-404">
+            <h1>404</h1>
             <h2>Sorry we have a problem with starting your next adventure</h2>
             <h3>We couldn't find the page you are looking for.</h3>
             <a href="index.html">Return to Home</span></a>
