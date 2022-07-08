@@ -5,24 +5,28 @@
 
 ## Live Poject 
 
+[View live project here](https://jjbr13.github.io/Justin-Brown-milestone-project-one/)
 
 ## Repository 
 
+[Locate project reppository here](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
+
 # Contents
 
--[User Experience](#user-eperience)
+- [User Experience](#user-eperience)
    * [User Stories](#user-stroies)
      + [Holiday Bound clients](#holiday-bound-clients)
      + [Limited Holiday Options](#limited-holiday-options)
      + [Travel Broker](#travel-broker)
--[Design](#design)
+- [Design](#design)
+    + [Colour Pallette](#colour-pallette)
     + [Typography](#typography)
-    + [Icons](#icon)
--[Website Constuction](#website-constuction)
--[Current Features](#current-features)
--[Future Releases](#future-releases)
--[Languages Used](#languages-used)
--[References & Credit](#references--credit)
+    + [Images]
+- [Website Constuction](#website-constuction)
+- [Current Features](#current-features)
+- [Future Releases](#future-releases)
+- [Languages Used](#languages-used)
+- [References & Credit](#references--credit)
 
 
 
@@ -60,22 +64,75 @@
 
 ## Design 
 
+### Colour Pallette
+ 
+- The simple fresh, natural shceme was selected. To reflect adventures of the outdoor, with the green and blue contrasting whites and to maintain the vibe. 
+
+- This pallette was selected to completment the heavy use of images, to sofen and complement them. While staying true to the vision of the business and clients desires. 
+
 ### Typography 
 
-*Sourced via google fonts.* 
+[*Sourced via google fonts.*](https://fonts.google.com/) 
 
 - Heading: used "Lobster" this is a creative, modern flowing font allowing a quirky vibe through the site. 
+
 - Body: Used "Open Sans" commonly with light weight, this font is simple and readable allowing easy processing. 
 
-### Icons 
+### Images 
 
-- Thoughout the site icons from Font Awesome have been used create a better user experience, to add emphisis to button. 
+- Imagery was a higly important aspect within this site, as the site aim was to transport the user  into imagening themselves on adventures/ holiday in one of the vans. 
+
+- This was achived throughout the site: 
+    - Hero Section on both home and view Van pages were used to capture the attetntion of the user. 
+    - The homepage incorporated the "wanderlust gallery", allowing the user to see and picture themseleves within the vans and different locations. 
+    - Under each option of van provided a carousel of images sliding indefinately showing images of the specific type of van. 
 
 ## Website Constuction 
 
+## Webpage Layout 
+
+ [Click here for Wireframe PDF](#)
+
+- The website consits of 3 main pages:
+  - Hompage: Landing page, featuring links outbound to other pages and wanderlust gallery. 
+  - View vans: Provides information on the three types of vans offered to hire. 
+  - Contact: Provides contact form to allow the client to enquire or book in.
+  - Cancellation policy: Simply page stating the policy of calcellation. 
+- All pages have feature buttons/ call to actions or internal links to allow easy, comprehensive navigations through the entirity of the site. Allowing for a better user experience. 
+
+## Nav-bar 
+
+- The Nav-bar was located through-out all pages in the same format to allow consitancy and ease provided when using the site. 
+- In desktop & tablet view the nav-bar is horozontally position in list format with a button loacated on right side to contact the company. 
+- The nav-bar is not "sticky" allowing for it to disapper with scroll, this was elected for the images and content of the lower blocks could utilise the entirity of the page at all times. 
+
+- The nav-bar is responsive meaning when 325px is reached (mobile devices) the nav-bar moves into hamburger format, allowing the screen not to be conjested. Further the button style is removed and appears as other pages, do within the hamburger dropdown. 
+
+## 404 Error Page 
+
+- This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the userer to navigate back to the hompage if an error happens when navigating the site. 
+-This features in-line CSS styling and a simple link back to the hompage. By having inline styling in there is any issue relates to stlye.css file or bootstrap documentations this page still be active and within selected style. 
+ 
 ## Current Features 
 
+### Responsive on all Devices 
+
+- This website provides a basic online platform for a rental campervan businssess and has been created using mobile first design which is fully responsive on all screen sizes. 
+- Luv 4-Wheels site was created using Bootstrap grid system, flex class and dcoumentaitons allowing website content to look correct through all devices. 
+
 ## Future Releases 
+
+### Adding more content
+
+- This site has the ability to have more pages to genterate more traffic to the site. For example: blog page or Adventure maual (see below image for exmple of layout) 
+
+### Booking system 
+
+- Allowing the user to book desired van and dates without using the booking form, would be a huge upgrade and user expereice improvemnet. 
+
+### App 
+
+- By using website content and design styling (brand identiy) carry this across to an app with a user database, allowing user profiles. This would create consitancy sense of community. 
 
 ## Languages Used 
 
@@ -88,21 +145,32 @@
 
 # Depolyment 
 
+### Github Pages 
+
+1. Log in to [GitHub login](https://github.com/login)
+2. Navigate to [GitHub repository](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
+3. Locate the navbar at the top of the repository (Not the tope of the web page). Click the Settings tab. 
+4. Find the new navbar on the LEFT side. Click "Pages" under sub-heading "Code and automation". 
+5. Under "Source", click the dropdown named "None" and select "Main". 
+6. Click save, the page will automatically refresh. With a notifcation at the top of the page, with the [link](https://jjbr13.github.io/Justin-Brown-milestone-project-one/) to your published site. 
+8. You can return to Github pages section to access the link. 
+
+
 # References & Credit 
 
 ## Framework
 
--[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
+- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
 
 ## Media
 
--[tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
--[unsplash](https://unsplash.com/): Open resource to get media files, such as images for hero section and galleries. 
--[Coding.tools](https://coding.tools/hex-to-rgba): Allow ease of convertion of Hex to rgba colours. 
+- [tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
+- [unsplash](https://unsplash.com/): Open resource to get media files, such as images for hero section and galleries. 
+- [Coding.tools](https://coding.tools/hex-to-rgba): Allow ease of convertion of Hex to rgba colours. 
 
 ## Logo Creation
 
--Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): This allowed the camper van icon to be used and imported. 
+- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): This allowed the camper van icon to be used and imported. 
 
 ## Credit 
 
