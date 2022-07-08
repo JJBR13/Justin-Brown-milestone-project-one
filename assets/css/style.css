@@ -401,16 +401,12 @@ ul {
     color: #F2F2F2;
 }
 
-.green-content-text {
-    color: #4C9F70;
+.content-text-black {
+    color: black;
 }
 
 .blue-content-text {
     color: #1E757C;
-}
-
-.black-content-text {
-    color: black;
 }
 
 .single-sentence {
@@ -421,7 +417,7 @@ ul {
 .btn-book-now {
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 20px;
-    color: #4C9F70;
+    color: black;
     background-color: #CDCCCC;
     padding: 10px;
     border: 2%;
@@ -555,14 +551,13 @@ ul {
 
 .btn-subscribe {
     font-size: 13px;
-    color: #F2F2F2;
+    color: black;
     background: #4C9F70;
     border: 2px;
     border-color: #F2F2F2;
     border-radius: 5px;
     padding: 8px;
     margin-top: 11px;
-    
 }
 
 .btn-subscribe:hover {
