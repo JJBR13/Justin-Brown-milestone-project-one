@@ -608,12 +608,12 @@ ul {
         padding: 0;
     }
 
-    #sub-heading {
+    .sub-heading {
         text-align: center;
         margin-left: 0;
     }
 
-    #steps {
+    .steps {
         text-align: center;
         margin-top: 2rem;
         padding: 0;
@@ -646,7 +646,7 @@ ul {
         margin-top: 20px;
     }
 
-    #sub-heading {
+    .sub-heading {
         text-align: start;
         margin-left: 2rem;
     }
@@ -684,7 +684,7 @@ ul {
     .top-text-padding {
         padding-top: 2rem;
     }
-    
+
     .btn-subscribe {
         margin-right: 140px;
         }
