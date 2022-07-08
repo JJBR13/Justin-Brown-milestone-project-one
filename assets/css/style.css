@@ -2,9 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;500;600&display=swap');
 
-/*---------------------------------------------------------------- Font header & bodies default */ 
+/*---------------------------------------------------------------- Font header & bodies default */
 
-h1,h2 {
+h1,
+h2 {
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -39,7 +40,7 @@ body {
 /* -------------------------------------------------------------Special maragins, Paddings & Backgrounds*/
 
 .inline-block {
-    display: inline-block;    
+    display: inline-block;
 }
 
 .block-paddings {
@@ -72,7 +73,7 @@ body {
 #header-body {
     background-image: url(../img/logo/logo@4x.png);
     position: absolute;
-    background-color: rgba(73,111,93,0.6);
+    background-color: rgba(73, 111, 93, 0.6);
     padding-top: 3em;
     z-index: 1;
 }
@@ -95,12 +96,12 @@ body {
     animation: forwards;
 }
 
-.btn, .btn:hover {
+.btn,
+.btn:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #ffffff;
     background-color: #496F5D;
-    border: 2%;
     border-color: #ffffff;
     border-radius: 5px;
 }
@@ -120,7 +121,7 @@ body {
 
 /* -------------------------------------------------------------Hero Section  */
 
-.hero-container { 
+.hero-container {
     height: 100vh;
     margin-top: -22px;
     background: url(../img/home/hero_image.jpg) no-repeat center bottom fixed;
@@ -139,7 +140,7 @@ body {
 
 .hero-text {
     color: #F2F2F2;
-      
+
 }
 
 .hero-text h1 {
@@ -150,7 +151,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    
+
 }
 
 /* -------------------------------------------------------------Select your vibe*/
@@ -180,7 +181,7 @@ body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    background-color: rgba(27,36,48,0.4);
+    background-color: rgba(27, 36, 48, 0.4);
     border-radius: 5px;
 }
 
@@ -188,7 +189,7 @@ body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    background-color: rgba(249,242,237,0.4);
+    background-color: rgba(249, 242, 237, 0.4);
     border-radius: 5px;
 }
 
@@ -199,7 +200,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+
     height: 100%;
     width: 100%;
     border: none;
@@ -211,7 +212,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     height: 100%;
     width: 100%;
     border: none;
@@ -223,7 +224,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     height: 100%;
     width: 100%;
     border: none;
@@ -236,7 +237,7 @@ body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    background-color: rgba(27,36,48,0.4);
+    background-color: rgba(27, 36, 48, 0.4);
     border-radius: 5px;
 }
 
@@ -246,7 +247,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+
     height: 100%;
     width: 100%;
     border: none;
@@ -258,7 +259,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+
     height: 100%;
     width: 100%;
     border: none;
@@ -270,7 +271,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+
     height: 100%;
     width: 100%;
     border: none;
@@ -283,28 +284,29 @@ body {
     padding-top: 6rem;
 }
 
-.testimonial-carousel { 
-    height: 225px; }
+.testimonial-carousel {
+    height: 225px;
+}
 
-.carousel-item { 
-     height: 200px; 
-     margin-bottom: 1em;
-    }
-    
+.carousel-item {
+    height: 200px;
+    margin-bottom: 1em;
+}
+
 .carousel-caption {
-     position: absolute;
-     right: 15%;
-     bottom: 1.25rem;
-     left: 15%;
-     padding-top: 1.25rem;
-     padding-bottom: 1.25rem;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     color: #fff;
-     text-align: center;
-     background-color: rgba(255,255,255,0.4);
-     border-radius: 10px;
-     color: #1E757C;
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    color: #1E757C;
 }
 
 .carousel-indicators {
@@ -339,14 +341,14 @@ body {
 }
 
 img {
-  margin-top: 8px;
-  vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
 
 }
 
 /* ---------------------------------------------------------------------------------View van Page*/
 
-.van-hero { 
+.van-hero {
     height: 100vh;
     margin-top: -22px;
     background: url(../img/view-vans/retro_hero.jpg) no-repeat center center fixed;
@@ -366,7 +368,7 @@ ul {
 
 .view-van-carousel {
     overflow: hidden;
-} 
+}
 
 
 .carousel-position {
@@ -416,7 +418,6 @@ ul {
     color: #ffffff;
     background-color: #496F5D;
     padding: 1em;
-    border: 2%;
     border-color: #ffffff;
     border-radius: 5px;
 }
@@ -424,7 +425,6 @@ ul {
 .btn-book-now:hover {
     background-color: #ffffff;
     color: #496F5D;
-    border: 2%;
     border-color: #496F5D;
     border-radius: 5px;
 }
@@ -484,20 +484,20 @@ ul {
 
 .hover-form:hover {
     border-width: 0px;
-    box-shadow: 0 0 0 0.15rem rgba(30,117,124,0.2);
+    box-shadow: 0 0 0 0.15rem rgba(30, 117, 124, 0.2);
 }
 
 /* --------------------------------------------------------------------------------- Cancellation Page*/
 
-.cancel-img { 
-        height: 50vh;
-        margin-top: -22px;
-        background: url(../img/footer/bg-footer.jpg) no-repeat center top fixed;
-        -webkit-background-size: contatin;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+.cancel-img {
+    height: 50vh;
+    margin-top: -22px;
+    background: url(../img/footer/bg-footer.jpg) no-repeat center top fixed;
+    -webkit-background-size: contatin;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .terms-margin {
     margin-top: 85px;
@@ -506,8 +506,8 @@ ul {
 /* ---------------------------------------------------------------------------------Footer*/
 
 .footer-background {
-    background: url('../img/footer/bg-footer.jpg') no-repeat center;  
-    margin-top: 20px; 
+    background: url('../img/footer/bg-footer.jpg') no-repeat center;
+    margin-top: 20px;
     background-position: top center;
     object-fit: contain;
     height: 100%;
@@ -515,16 +515,16 @@ ul {
 }
 
 .overlay {
-   background: rgba(205,204,204,0.3);
-   height: 100%;
-   width: 100%;
+    background: rgba(205, 204, 204, 0.3);
+    height: 100%;
+    width: 100%;
 }
 
 .footer-margins {
     padding: 2em;
 }
 
-.footer-email{
+.footer-email {
     margin-top: 10px;
     width: 100%;
     border-width: 2px;
@@ -539,31 +539,28 @@ ul {
 
 .social-links {
     margin-top: 10px;
-    position: inline;
 }
 
 .btn-subscribe {
-        font-family: 'Lobster', cursive, sans-serif;
-        font-size: 15px;
-        color: #ffffff;
-        background-color: #496F5D;
-        margin-top: 11px;
-        padding: 0.5em;
-        border: 2%;
-        border-color: #ffffff;
-        border-radius: 2px;
-    }
-    
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #496F5D;
+    margin-top: 11px;
+    padding: 0.5em;
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
 .btn-subscribe:hover {
     font-family: 'Lobster', cursive, sans-serif;
     font-size: 15px;
     color: #ffffff;
     background-color: #496F5D;
     padding: 0.25em;
-    border: 2%;
     border-color: #ffffff;
     border-radius: 2px;
-    }
+}
 
 
 /* ---------------- utilised and sourced from CI resume project */
@@ -583,7 +580,7 @@ ul {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
     background: #1E757C;
 }
 
@@ -637,7 +634,7 @@ ul {
 
 @media(min-width: 720px) {
 
-    #button-remove{
+    #button-remove {
         background-color: #496F5D;
         border: solid 2px;
         border-color: #ffffff;
@@ -671,7 +668,8 @@ ul {
         margin-top: 60px;
     }
 
-    .subscribe, .footer-email {
+    .subscribe,
+    .footer-email {
         text-align: left;
         margin: 10px 30px;
     }
@@ -690,10 +688,6 @@ ul {
         margin-right: 200px;
     }
 
-    #footer-push-down {
-        margin-top: none;
-    }
-
     .square-carousel {
         height: 545px;
         width: 545px;
@@ -702,4 +696,4 @@ ul {
     .top-text-padding {
         padding-top: 4rem;
     }
-    }
+}
