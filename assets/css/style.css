@@ -460,11 +460,11 @@ ul {
     font-weight: 300;
 }
 
-#contact-img {
+.contact-img {
     height: 100%;
 }
 
-#contact-img img {
+.contact-img img {
     border-radius: 10px;
 }
 
@@ -619,7 +619,7 @@ ul {
         padding: 0;
     }
 
-    #square-carousel {
+    .square-carousel {
         padding: 0;
     }
 
@@ -659,10 +659,10 @@ ul {
         padding-right: 3rem;
     }
 
-    #square-carousel {
+    .square-carousel {
         height: 400px;
         width: 400px;
-        padding-left: 5em;
+        padding-left: 0;
         padding-right: 5em;
     }
 
@@ -675,24 +675,31 @@ ul {
         text-align: left;
         margin: 10px 30px;
     }
+
+    #footer-push-down {
+        text-align: center;
+        margin-top: 35px;
+    }
 }
 
 /*-----------------Laptops Above -------------*/
 
 @media(min-width: 992px) {
 
-    .top-text-padding {
-        padding-top: 2rem;
+    .btn-subscribe {
+        margin-right: 200px;
     }
 
-    .btn-subscribe {
-        margin-right: 140px;
-        }
+    #footer-push-down {
+        margin-top: none;
+    }
 
-        #square-carousel {
-            height: 545px;
-            width: 545px;
-            padding-left: 5em;
-            padding-right: 5em;
-        }
-}
+    .square-carousel {
+        height: 545px;
+        width: 545px;
+    }
+
+    .top-text-padding {
+        padding-top: 4rem;
+    }
+    }
