@@ -555,7 +555,7 @@ ul {
 }
 
 .btn-subscribe {
-    font-size: 15px;
+    font-size: 13px;
     color: #F2F2F2;
     background: #4C9F70;
     border: 2px;
@@ -688,5 +688,12 @@ ul {
 
     .btn-subscribe {
         margin-right: 140px;
+        }
+
+        #square-carousel {
+            height: 545px;
+            width: 545px;
+            padding-left: 5em;
+            padding-right: 5em;
         }
 }
