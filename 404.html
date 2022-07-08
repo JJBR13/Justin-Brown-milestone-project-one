@@ -13,29 +13,40 @@
     <!-- Inline styling to prevent other errors occuring-->
 
     <style>
-        .base {
-            margin: 50px;
-            padding: 40px;
-        }
-
-        .content {
-            width: 60%;
-            padding: 10px;
+        body {
             display: flex;
+            height: 100vh;
+            justify-content: center;
             align-items: center;
         }
 
+        .all {
+            margin: 50px;
+            padding: 40px;
+            background: url("assets/img/footer/bg-footer.jpg") no-repeat center / cover;
+        }
+
+        .content-404 {
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            background-color: rgba(60, 60, 60, 0.5);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
     </style>
 </head>
 
 <!-- 404 block -->
 
 <body>
-    <div class="base">
-        <div class="content">
+    <div class="all">
+        <div class="content-404">
             <h2>Sorry we have a problem with starting your next adventure</h2>
             <h3>We couldn't find the page you are looking for.</h3>
-            <p><a>Return to<span href="index.html">Home</span></a></p>
+            <a href="index.html">Return to Home</span></a>
         </div>
     </div>
 </body>
