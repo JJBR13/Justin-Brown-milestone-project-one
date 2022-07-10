@@ -99,7 +99,9 @@
 
 ### Webpage Layout 
 
- [Click here for Wireframe PDF](#)
+ [Click here for Wireframe PDF](assests/img/README/wireframes.pdf)
+
+ ![Flow diagram: website flow](assets/img/README/site_flow.png)
 
 - The website consits of 3 main pages:
   - Hompage: Landing page, featuring links outbound to other pages and wanderlust gallery. 
@@ -120,6 +122,10 @@
 
 - This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the userer to navigate back to the hompage if an error happens when navigating the site. 
 -This features in-line CSS styling and a simple link back to the hompage. By having inline styling in there is any issue relates to stlye.css file or bootstrap documentations this page still be active and within selected style. 
+
+### Page creation for form submission
+
+- To allow for a better user experience, the creation of contact-submission.html & sign-up-complete.html were created. This allowed for the user to eaily see the forms had been completed and return back to the homepage decreacing website bounce rate, and continuing the session. 
  
 ## Current Features 
 
@@ -130,15 +136,15 @@
 
 ## Future Releases 
 
-### Adding more content
+### 1 Adding more content
 
-- This site has the ability to have more pages to genterate more traffic to the site. For example: blog page or Adventure maual (see below image for exmple of layout) 
+- This site has the ability to have more pages to genterate more traffic to the site. For example: blog page or Adventure maual (please refer to wireframe PDF for design idea) 
 
-### Booking system 
+### 2 Booking system 
 
 - Allowing the user to book desired van and dates without using the booking form, would be a huge upgrade and user expereice improvemnet. 
 
-### App 
+### 3 App 
 
 - By using website content and design styling (brand identiy) carry this across to an app with a user database, allowing user profiles. This would create consitancy sense of community. 
 
@@ -147,7 +153,9 @@
 - [HTML5](https://www.w3schools.com/whatis/whatis_html.asp)
 - [CSS3](https://www.w3schools.com/whatis/whatis_css.asp)
 
-# Testing 
+## Testing 
+
+- Please follow link to, [TESTME.md](#)
 
 ## Libaries, Frameworks & Programs 
 
