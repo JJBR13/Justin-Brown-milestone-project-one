@@ -505,17 +505,13 @@ ul {
 
 /* ---------------------------------------------------------------------------------Sign up complete*/
 
-.padding-down {
-    padding-top: 150px;
-}
-
 #small-print {
     font-size: 14px;
     font-style: italic;
 }
 
 .sign-up-background {
-    height: 100vh;
+    height: 102.5vh;
     margin-top: -22px;
     background: url(../img/sign-up-bg.jpg) no-repeat center bottom fixed;
     -webkit-background-size: cover;
@@ -523,6 +519,22 @@ ul {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#hide-box-sizing {
+    box-sizing: content-box !important;
+}
+
+.darker-overlay {
+margin: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-white {
+    color: #fff;
+}
+
 
 /* ---------------------------------------------------------------------------------Footer*/
 
@@ -631,6 +643,10 @@ ul {
         margin-left: 0;
     }
 
+    .padding-down {
+        padding-top: 6em;
+    }
+
     .steps {
         text-align: center;
         margin-top: 2rem;
@@ -667,6 +683,10 @@ ul {
     .sub-heading {
         text-align: start;
         margin-left: 2rem;
+    }
+
+    .padding-down {
+        padding-top: 300px;
     }
 
     .p-start {
@@ -707,6 +727,10 @@ ul {
 
     .btn-subscribe {
         margin-right: 200px;
+    }
+
+    .padding-down {
+        padding-top: 150px;
     }
 
     .square-carousel {
