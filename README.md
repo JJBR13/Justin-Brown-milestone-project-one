@@ -28,6 +28,7 @@
     + [Website Layout](#webpage-layout)
     + [Nav-bar](#nav-bar)
     + [404 Error Page](#404-error-page)
+    + [Form Submission Pages](#submission-pages)
 - [Current Features](#current-features)
     + [Responsive On All Devices](#responsive-on-all-devices)
 - [Future Releases](#future-releases)
@@ -123,7 +124,7 @@
 - This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the userer to navigate back to the hompage if an error happens when navigating the site. 
 -This features in-line CSS styling and a simple link back to the hompage. By having inline styling in there is any issue relates to stlye.css file or bootstrap documentations this page still be active and within selected style. 
 
-### Page creation for form submission
+### Submission Pages
 
 - To allow for a better user experience, the creation of contact-submission.html & sign-up-complete.html were created. This allowed for the user to eaily see the forms had been completed and return back to the homepage decreacing website bounce rate, and continuing the session. 
  
@@ -136,15 +137,15 @@
 
 ## Future Releases 
 
-### 1 Adding more content
+### 1) Adding more content
 
 - This site has the ability to have more pages to genterate more traffic to the site. For example: blog page or Adventure maual (please refer to wireframe PDF for design idea) 
 
-### 2 Booking system 
+### 2) Booking system 
 
 - Allowing the user to book desired van and dates without using the booking form, would be a huge upgrade and user expereice improvemnet. 
 
-### 3 App 
+### 3) App 
 
 - By using website content and design styling (brand identiy) carry this across to an app with a user database, allowing user profiles. This would create consitancy sense of community. 
 
@@ -155,7 +156,7 @@
 
 ## Testing 
 
-- Please follow link to, [TESTME.md](#)
+- Please follow link to [TEST.md](TEST.md), for website testing and debugging breakdown.
 
 ## Libaries, Frameworks & Programs 
 
