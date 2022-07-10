@@ -1,7 +1,7 @@
 # Luv 4-Wheels 
 # Milestone Project 1 - Static Front-End Website 
 
-* DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website for the developers portfolio and completions of Code Institutes course
+* DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website is for the developers portfolio and completions of "Code Institute's course"
 
 ![Luv 4-vans, live mock-up](assets/img/README/website_mockup.png)
 
@@ -11,17 +11,17 @@
 
 # Repository 
 
-[Locate project reppository here](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
+[Locate project repository here](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
 
 # Contents
 
 - [User Experience](#user-eperience)
    * [User Stories](#user-stroies)
-     + [Holiday Bound clients](#holiday-bound-clients)
+     + [Holiday Bound Clients](#holiday-bound-clients)
      + [Limited Holiday Options](#limited-holiday-options)
      + [Travel Broker](#travel-broker)
 - [Design](#design)
-    + [Colour Pallette](#colour-pallette)
+    + [Colour Palette](#colour-palette)
     + [Typography](#typography)
     + [Images](#images)
 - [Website Constuction](#website-constuction)
@@ -37,7 +37,7 @@
     + [App](#app)
 - [Languages Used](#languages-used)
 - [Testing](#testing)
-- [Libaries, Frameworks & Programs](#libaries-frameworks--programs)
+- [Libraries, Frameworks & Programs](#libraries-frameworks--programs)
 - [Deployment](#depolyment)
     + [GitHub Pages](#github-pages)
 - [References & Credit](#references--credit)
@@ -48,7 +48,7 @@
 
 ## User Stroies 
 
-### Holiday Bound clients 
+### Holiday Bound Clients 
 
 *These are useres already looking for a holiday been refered by family, friends who have already used the service.*
 
@@ -74,7 +74,7 @@
 
 ## Design 
 
-### Colour Pallette
+### Colour Palette
  
 - The simple fresh, natural shceme was selected. To reflect adventures of the outdoor, with the green and blue contrasting whites and to maintain the vibe. 
 
@@ -159,7 +159,7 @@
 
 - Please follow link to [TEST.md](TEST.md), for website testing and debugging breakdown.
 
-## Libaries, Frameworks & Programs 
+## Libraries, Frameworks & Programs 
 
 ## Framework
 
