@@ -179,7 +179,7 @@
   - jQuery enabling functions of carousel, nav-bar responsitivity and button hover animations 
 
 - [Balsamiq](https://balsamiq.com/)
-   -Allowed creation of the wireframes. 
+   - Allowed creation of the wireframes. 
 
 - [Adobe Suite](https://www.adobe.com/uk/)
   - Used to adjust/ enhance images and create the logo for the bussiness. 
