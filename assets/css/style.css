@@ -535,6 +535,29 @@ background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
+.body-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* --------------------------------------------------------------------------------- Thank you for contact page*/
+
+#thank-you {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.thank-you-background {
+    height: 102.5vh;
+    margin-top: -22px;
+    background: url(../img/thank_you.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /* ---------------------------------------------------------------------------------Footer*/
 
