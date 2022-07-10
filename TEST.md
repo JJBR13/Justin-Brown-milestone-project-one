@@ -1,3 +1,5 @@
+
+
 ## Issues & Bugs Found
 
 **a) Labels & ids not linked on forms**
@@ -9,6 +11,10 @@
 **c) Nav-bar reponsitivity**
 
 - Button remove on phone
+
+**d) Image not loading When live**
+
+- The image carousel on the contact.html page when deplyed 2 of the images fell to default alt text. 
 
 
 ## Validator Testing
@@ -50,4 +56,4 @@ This returned no errors, for style.css file.
 
 ![Lighthouse Mobile Validator Results](assets/img/TEST.md/lighthouse_mobile.png)
 
-The above Lighthouse results highlight that there is big acessibility was on all devices with 96% and above. The biggest difference was on performnce from desktop to mobile. Lighthouse highlighted images and redudent CSS libary was the cause for this. 
+The above Lighthouse results highlight that there is big acessibility was on all devices with 94% and above. The biggest difference was on performnce from desktop to mobile. Lighthouse highlighted images and redudent CSS libary was the cause for this. 
