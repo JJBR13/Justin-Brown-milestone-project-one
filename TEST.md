@@ -3,12 +3,12 @@
 Contents
 
 - [Validator Testing](#validator-testing)
- + [HTML](#html)
- + [CSS](#css)
+ *  + [HTML](#html)
+    + [CSS](#css)
 - [WAVE](#wave)
 - [LightHouse](#lighthouse)
- + [Destop Results](#desktop-results)
- + [Mobile Results](#mobile-results)
+    + [Destop Results](#desktop-results)
+    + [Mobile Results](#mobile-results)
 - [A11y Color Contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
 - [Browser Compatibility](#browser-compatibility)
 - [Responsivity](#responsivity)
