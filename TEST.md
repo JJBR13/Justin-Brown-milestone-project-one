@@ -1,19 +1,19 @@
- ### Issues & Bugs Found
+## Issues & Bugs Found
 
 **a) Labels & ids not linked on forms**
 
 **b) Forms submition** 
 
-post-get, from code institue link to own html pages 
+- post-get, from code institue link to own html pages 
 
 **c) Nav-bar reponsitivity**
 
-Button remove on phone
+- Button remove on phone
 
 
 ## Validator Testing
 
-Before testing. the code was formated by shortcuts ctl + K then ctrl + F.
+- Before testing. the code was formated by shortcuts ctl + K then ctrl + F.
 
 ### HTML 
 
