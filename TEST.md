@@ -21,7 +21,7 @@
 
 On the intial check this higlighted a problem with headings within the gallery section, see below: 
 
-![HTML Validator first results](assets/img/TEST.md/html_val_varning.png)]
+[HTML Validator first results](assets/img/TEST.md/html_val_varning.png)]
 
 ### CSS 
 
