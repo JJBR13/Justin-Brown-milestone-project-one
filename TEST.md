@@ -1,22 +1,37 @@
 # Testing 
 
+Contents
+
+- [Validator Testing](#validator-testing)
+ + [HTML](#html)
+ + [CSS](#css)
+- [WAVE](#wave)
+- [LightHouse](#lighthouse)
+ + [Destop Results](#desktop-results)
+ + [Mobile Results](#mobile-results)
+- [A11y Color Contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
+- [Browser Compatibility](#browser-compatibility)
+- [Responsivity](#responsivity)
+- [Issues/ Bugs Found & Resolved](#issues-bugs-found--resolved)
+- [Unresolved](#unresolved)
+
 ## Validator Testing
 
 - Before testing. the code was formated by shortcuts ctl + K then ctrl + F.
 
-## HTML 
+### HTML 
 
 - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjjbr13.github.io%2FJustin-Brown-milestone-project-one%2F)
 
-On the intial check this higlighted a problem with headings within the gallery section, see below: 
+  - On the intial check this higlighted a problem with headings within the gallery section, see below: 
 
 [HTML Validator first results](assets/img/TEST.md/html_val_varning.png)
 
-## CSS 
+### CSS 
 
 - [W3C](https://jigsaw.w3.org/css-validator/validator) 
 
-This returned no errors, for style.css file. 
+  - This returned no errors, for style.css file. 
 
 ![CSS Validator Results](assets/img/TEST.md/css.png)
 
@@ -50,7 +65,7 @@ This returned no errors, for style.css file.
 
 ![A11y Color Constrast Validator Results](assets/img/TEST.md/color%20contrast.png)
 
-## Bowser Compatibility 
+## Browser Compatibility 
 
 This website was tested within Chrome, Microsoft Edge & Firefox on desktop. 
 
