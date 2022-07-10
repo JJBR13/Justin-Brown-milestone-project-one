@@ -36,6 +36,7 @@
     + [Booking System](#booking-system)
     + [App](#app)
 - [Languages Used](#languages-used)
+- [Testing](#testing)
 - [Libaries, Frameworks & Programs](#libaries-frameworks--programs)
 - [Deployment](#depolyment)
     + [GitHub Pages](#github-pages)
@@ -67,7 +68,7 @@
 
 *Travel agents that work close with the company to book out vans through the year* 
 
-* Travel compainies within the industary that use Luv 4-Wheels to provide options to prosective clients as holiday option.*
+* Travel compainies within the industary that use Luv 4-Wheels to provide options to prosective clients as holiday option.
 * Easy navigating site to me able to show prospective clients the holiday services offered 
 * Up to date gallery of images of van and locations travel to create insight and hype to the customer 
 

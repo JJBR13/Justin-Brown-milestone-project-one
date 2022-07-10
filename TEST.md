@@ -37,8 +37,6 @@ This returned no errors, for style.css file.
 
 ![WAVE Validator Results](assets/img/TEST.md/wave.png)
 
-
-
 ### Lighthouse 
 
 
