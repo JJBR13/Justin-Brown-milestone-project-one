@@ -76,6 +76,8 @@
 
 ### Colour Palette
  
+![Colour Palette](assets/img/README/colour.png)
+
 - The simple fresh, natural shceme was selected. To reflect adventures of the outdoor, with the green and blue contrasting whites and to maintain the vibe. 
 
 - This pallette was selected to completment the heavy use of images, to sofen and complement them. While staying true to the vision of the business and clients desires. 
