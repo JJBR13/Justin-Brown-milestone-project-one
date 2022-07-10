@@ -99,7 +99,7 @@
 
 ### Webpage Layout 
 
- [Click here for Wireframe PDF](assests/img/README/wireframes.pdf)
+ [Click here for Wireframe PDF](wireframes.pdf)
 
  ![Flow diagram: website flow](assets/img/README/site_flow.png)
 
