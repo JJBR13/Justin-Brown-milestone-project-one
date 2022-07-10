@@ -217,6 +217,6 @@
 
 - Monika Patel: design layout for the "Feel The Wanderlust" gallery located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
 
-- Occasion Help: allowing simple and clear text to be formualted for the cancellation_policy.html [Find Here](https://help.getoccasion.com/article/506-sample-cancellation-and-refund-policies)
+- Camptoo: allowing simple and clear text to be formualted for the cancellation_policy.html [Find Here](https://www.camptoo.co.uk/policies/cancellation/flex)
 
 - Multi Device Website Mockup Generator: enabling quick, professional mock-up of the site to be used within README.md [Find Here](https://techsini.com/multi-mockup/index.php)
