@@ -39,6 +39,15 @@ This returned no errors, for style.css file.
 
 ### Lighthouse 
 
+- Lighthouse was used, accessed throuh Developer Tools in Chrome to analyse performance, acessibility, best practice & SEO. This was done for both Desktop and Mobile devices. 
+
+#### Desktop Results
+
+![Lighthouse Desktop Validator Results](assets/img/TEST.md/lighthouse_desktop.png)
 
 
+#### Mobile Results 
 
+![Lighthouse Mobile Validator Results](assets/img/TEST.md/lighthouse_mobile.png)
+
+The above Lighthouse results highlight that there is big acessibility was on all devices with 96% and above. The biggest difference was on performnce from desktop to mobile. Lighthouse highlighted images and redudent CSS libary was the cause for this. 
