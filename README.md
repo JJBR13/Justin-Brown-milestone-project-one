@@ -5,7 +5,7 @@
 
 ![Luv 4-vans, live mock-up](assets/img/README/website_mockup.png)
 
-# Live Poject 
+# Live Project 
 
 [View live project here](https://jjbr13.github.io/Justin-Brown-milestone-project-one/)
 
@@ -44,33 +44,33 @@
     + [Logo Creation](#logo-creation)
 
 
-# User Eperience
+# User Experience
 
-## User Stroies 
+## User Stories 
 
 ### Holiday Bound Clients 
 
-*These are useres already looking for a holiday been refered by family, friends who have already used the service.*
+*These are users already looking for a holiday or been referred by family, friends or existing clients.*
 
-*Want to see varity and style of campervans advalible to hire. 
-*Information on the different vans, allowing educated choice that best suits them. 
-*Easy viewing, not stressfull allowing easy contact to be hire desired van for my adventure. 
+* Want to see variety and style of campervans available to hire. 
+* Information on the different vans, allowing educated choice that best suits them. 
+* Easy viewing, not stressful and allowing easily contactable. 
 
 ### Limited Holiday Options 
 
-*Defining the user that may have limitting factors for their holiday away, for example: hates flying or not wanting to leave the contry.*
+*Defining the user that may have limiting factors for their holiday away. For example,someone who dislikes flying or leave wanting a domestic holiday.*
 
-* Able get a taste of whether this is something for me. 
-* Be able to contact support with easy, with concerns or questions may need answered. 
+* I want a taste of whether this is a holiday I want to go on. 
+* Be able to contact support with easily, with concerns or questions that may need answers. 
 * See previous customer comments, allowing trust within the company. 
 
 ### Travel broker 
 
-*Travel agents that work close with the company to book out vans through the year* 
+*Travel agents who collaborate with the company to book vans throughout the year* 
 
-* Travel compainies within the industary that use Luv 4-Wheels to provide options to prosective clients as holiday option.
-* Easy navigating site to me able to show prospective clients the holiday services offered 
-* Up to date gallery of images of van and locations travel to create insight and hype to the customer 
+* There are travel companies within the industry that use Luv 4-Wheels to provide options to prospective clients as a holiday option.
+* Easy to navigate site to be able to show prospective clients the holiday services offered.
+* Up-to-date gallery of images of the van and locations travelled to create insight and hype for the customer.
 
 ## Design 
 
@@ -78,26 +78,26 @@
  
 ![Colour Palette](assets/img/README/colour.png)
 
-- The simple fresh, natural shceme was selected. To reflect adventures of the outdoor, with the green and blue contrasting whites and to maintain the vibe. 
+- The simple, fresh, natural scheme was selected. To reflect the adventures of the outdoors, with the green and blue contrasting whites and to maintain the vibe.
 
-- This pallette was selected to completment the heavy use of images, to sofen and complement them. While staying true to the vision of the business and clients desires. 
+- This palette was selected to complete the heavy use of images, to soothe and complement them.
 
 ### Typography 
 
 [*Sourced via google fonts.*](https://fonts.google.com/) 
 
-- Heading: used "Lobster" this is a creative, modern flowing font allowing a quirky vibe through the site. 
+- Headings: used "Lobster". This is a creative, modern, flowing font, allowing a quirky vibe through the site.
 
-- Body: Used "Open Sans" commonly with light weight, this font is simple and readable allowing easy processing. 
+- Body: Using "Open Sans", is a screen-friendly font. This font is simple and readable, allowing easy processing. 
 
 ### Images 
 
-- Imagery was a higly important aspect within this site, as the site aim was to transport the user  into imagening themselves on adventures/ holiday in one of the vans. 
+- Imagery was a highly important aspect of this site, as the site's aim was to transport the user into imagining themselves on adventures or holidays in one of the vans.
 
-- This was achived throughout the site: 
-    - Hero Section on both home and view Van pages were used to capture the attetntion of the user. 
-    - The homepage incorporated the "wanderlust gallery", allowing the user to see and picture themseleves within the vans and different locations. 
-    - Under each option of van provided a carousel of images sliding indefinately showing images of the specific type of van. 
+- This was achieved throughout the site:
+    - Having a hero section on both the home and view-van pages was used to capture the attention of the user.
+    - The homepage incorporated the "wanderlust gallery," allowing the user to see and imagine themselves within the vans and different locations. 
+    - Under each option of van, a carousel of images slides indefinitely, showing images of the specific type of van.
 
 ## Website Constuction 
 
@@ -107,50 +107,48 @@
 
  ![Flow diagram: website flow](assets/img/README/site_flow.png)
 
-- The website consits of 3 main pages:
-  - Hompage: Landing page, featuring links outbound to other pages and wanderlust gallery. 
-  - View vans: Provides information on the three types of vans offered to hire. 
-  - Contact: Provides contact form to allow the client to enquire or book in.
-  - Cancellation policy: Simply page stating the policy of calcellation. 
-- All pages have feature buttons/ call to actions or internal links to allow easy, comprehensive navigations through the entirity of the site. Allowing for a better user experience. 
+- The website consists of 3 main pages:
+  - Hompage: Landing page, featuring links outbound to other pages and a wanderlust gallery. 
+  - View-Vans: provides information on the three types of vans offered for hire.
+  - Contact: Provides a contact form to allow the client to enquire or book in.
+  - Cancellation policy: simply a page stating the policy of cancellation. 
+- All pages have feature buttons, call to actions, or internal links to allow easy, comprehensive navigation through the entirety of the site, allowing for a better user experience.
 
 ### Nav-bar 
 
-- The Nav-bar was located through-out all pages in the same format to allow consitancy and ease provided when using the site. 
-- In desktop & tablet view the nav-bar is horozontally position in list format with a button loacated on right side to contact the company. 
-- The nav-bar is not "sticky" allowing for it to disapper with scroll, this was elected for the images and content of the lower blocks could utilise the entirity of the page at all times. 
-
-- The nav-bar is responsive meaning when 325px is reached (mobile devices) the nav-bar moves into hamburger format, allowing the screen not to be conjested. Further the button style is removed and appears as other pages, do within the hamburger dropdown. 
+- The nav-bar was located throughout all pages in the same format to allow consistency and ease of use when using the site.
+In desktop and tablet views, the nav-bar is horizontally positioned in list format with a button located on the right side to contact the company.
+- The nav-bar is not "sticky", allowing for it to disappear with scroll. This was elected so the images and content of the lower blocks could utilise the entire width of the page at all times.
+- The nav-bar is responsive, meaning when 325px is reached (mobile devices), the nav-bar moves into hamburger format, allowing the screen not to be cluttered. Furthermore, the button style is removed and appears as other pages, do within the hamburger dropdown. 
 
 ### 404 Error Page 
 
-- This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the userer to navigate back to the hompage if an error happens when navigating the site. 
--This features in-line CSS styling and a simple link back to the hompage. By having inline styling in there is any issue relates to stlye.css file or bootstrap documentations this page still be active and within selected style. 
+- This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the user to navigate back to the homepage if an error happens when navigating the site. -This features in-line CSS styling and a simple link back to the homepage. If there is any issue relating to the style.css file or bootstrap documentation, this page will still be active and within the selected style.
 
 ### Submission Pages
 
-- To allow for a better user experience, the creation of contact-submission.html & sign-up-complete.html were created. This allowed for the user to eaily see the forms had been completed and return back to the homepage decreacing website bounce rate, and continuing the session. 
+- To allow for a better user experience, the creation of contact-submission.html and sign-up-complete.html were created. This allowed the user to easily see that the forms had been completed and return back to the homepage, decreasing the website bounce rate and continuing the session.
  
 ## Current Features 
 
 ### Responsive on all Devices 
 
-- This website provides a basic online platform for a rental campervan businssess and has been created using mobile first design which is fully responsive on all screen sizes. 
-- Luv 4-Wheels site was created using Bootstrap grid system, flex class and dcoumentaitons allowing website content to look correct through all devices. 
+- This website provides a basic online platform for a rental campervan business and has been created using a mobile-first design which is fully responsive on all screen sizes.
+- The Luv4-Wheels site was created using the Bootstrap grid system, flex class, and documentation, which allows website content to look correct across all devices.
 
 ## Future Releases 
 
 ### 1) Adding more content
 
-- This site has the ability to have more pages to genterate more traffic to the site. For example: blog page or Adventure maual (please refer to wireframe PDF for design idea) 
+- This site has the ability to have more pages to attract more traffic to it. For example, a blog page or an adventure manual (for design ideas, please see the wireframe PDF).
 
 ### 2) Booking system 
 
-- Allowing the user to book desired van and dates without using the booking form, would be a huge upgrade and user expereice improvemnet. 
+- Allowing the user to book their desired van and dates without using the booking form would be a huge upgrade and user experience improvement.
 
 ### 3) App 
 
-- By using website content and design styling (brand identiy) carry this across to an app with a user database, allowing user profiles. This would create consitancy sense of community. 
+- By using website content and design styling (brand identity), carry this across to an app with a user database, allowing user profiles. This would create a strong sense of community.
 
 ## Languages Used 
 
@@ -159,32 +157,32 @@
 
 ## Testing 
 
-- Please follow link to [TEST.md](TEST.md), for website testing and debugging breakdown.
+- Please see [TEST.md](TEST.md) for a breakdown of website testing and debugging.
 
 ## Libraries, Frameworks & Programs 
 
 ## Framework
 
 - [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
-  - Bootstrap v5.2 was used through the entire site to make it responsive. Through using containers, grid system, D-flex and buttom classes. Further sourcing documentation tor produce Nav-bar, contact-form, carousel and buttons.
+  - Bootstrap v5.2 was used throughout the entire site to make it responsive. Containers, grid system, D-flex, and bottom classes are used. Obtaining additional documentation to create the navigation bar, contact form, carousel, and buttons.
 
 - [Google Fonts](https://fonts.google.com/)
- - Fonts were selected for the site from the libary and imported to style.CSS file 
+ - From the Google Fonts library, fonts were selected for the site and imported to style.css file
 
 - [Github](https://github.com/)
   - Used to create and store the project repository.
 
 - [Gitpod](https://gitpod.io/)
-  - Gitpod was installed to create all files and were the code was written.
+  - Gitpod was installed to create all files and where the code was written.
 
 - [jQuery](https://jquery.com/)
-  - jQuery enabling functions of carousel, nav-bar responsitivity and button hover animations 
+  - jQuery enables functions of carousel, nav-bar responsitivity, and button hover animations.
 
 - [Balsamiq](https://balsamiq.com/)
-   - Allowed creation of the wireframes. 
+   - Allowed the creation of the wireframes.
 
 - [Adobe Suite](https://www.adobe.com/uk/)
-  - Used to adjust/ enhance images and create the logo for the bussiness. 
+  - Used to adjust/enhance images and create the logo for the business.
   
 
 
@@ -192,13 +190,13 @@
 
 ### Github Pages 
 
-1. Log in to [GitHub login](https://github.com/login)
-2. Navigate to [GitHub repository](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
+1. Go to [GitHub login](https://github.com/login), proceed to log in.
+2. Open [GitHub repository](https://github.com/JJBR13/Justin-Brown-milestone-project-one)
 3. Locate the navbar at the top of the repository (Not the tope of the web page). Click the Settings tab. 
-4. Find the new navbar on the LEFT side. Click "Pages" under sub-heading "Code and automation". 
+4. Locate the NEW navigation bar on the LEFT side. Click "Pages" under the sub-heading "Code and automation". 
 5. Under "Source", click the dropdown named "None" and select "Main". 
-6. Click save, the page will automatically refresh. With a notifcation at the top of the page, with the [link](https://jjbr13.github.io/Justin-Brown-milestone-project-one/) to your published site. 
-8. You can return to Github pages section to access the link. 
+6. Click Save. The page will automatically refresh. With a notification at the top of the page, with the [link](https://jjbr13.github.io/Justin-Brown-milestone-project-one/) to your published site. 
+7. You can return to the Github pages section to access the link.
 
 
 # References & Credit 
@@ -208,17 +206,17 @@
 ### Media
 
 - [tiny.png](https://tinypng.com/): Used to compress media files to maintain good load speed throughout the site. 
-- [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/photos/search/) : Open resources to get media files, such as images for hero section and galleries. 
-- [Coding.tools](https://coding.tools/hex-to-rgba): Allow ease of convertion of Hex to rgba colours. 
+- [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/photos/search/): Open resources to get media files, such as images throughout the site.
+- [Coding.tools](https://coding.tools/hex-to-rgba): Allow for the simple conversion of Hex to RGBA colors. 
 
 ### Logo Creation
 
-- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported. 
+- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported, creating the company logo and favicon. 
 
 ## Credit 
 
-- Monika Patel: design layout for the "Feel The Wanderlust" gallery located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
+- Monika Patel: the design layout for the "Feel The Wanderlust" gallery is located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
 
-- Camptoo: allowing simple and clear text to be formualted for the cancellation_policy.html [Find Here](https://www.camptoo.co.uk/policies/cancellation/flex)
+- Camptoo: used this company's cancellation policy text to create my cancellation_policy.html file. [Find Here](https://www.camptoo.co.uk/policies/cancellation/flex)
 
 - Multi Device Website Mockup Generator: enabling quick, professional mock-up of the site to be used within README.md [Find Here](https://techsini.com/multi-mockup/index.php)

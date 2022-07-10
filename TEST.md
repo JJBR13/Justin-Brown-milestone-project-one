@@ -17,13 +17,13 @@ Contents
 
 ## Validator Testing
 
-- Before testing. the code was formated by shortcuts ctl + K then ctrl + F.
+- Before the test, the code was formed by the shortcuts ctl + K and followed by ctrl + F.
 
 ### HTML 
 
 - [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjjbr13.github.io%2FJustin-Brown-milestone-project-one%2F)
 
-  - On the intial check this higlighted a problem with headings within the gallery section, see below: 
+  - On the initial check, this highlighted a problem with headings within the gallery section. See below:
 
 [HTML Validator first results](assets/img/TEST.md/html_val_varning.png)
 
@@ -31,13 +31,13 @@ Contents
 
 - [W3C](https://jigsaw.w3.org/css-validator/validator) 
 
-  - This returned no errors, for style.css file. 
+  - This returned no errors for the style.css file.
 
 ![CSS Validator Results](assets/img/TEST.md/css.png)
 
 ## WAVE
 
-- [WAVE](https://wave.webaim.org/) chrome extention was used through-out this website build to highlight aspects that were an issue or missed completly within the code. 
+- [WAVE](https://wave.webaim.org/) This Chrome extension was used throughout this website's build to highlight aspects that were an issue or completely missed within the code. 
 
 ![WAVE Validator Results](assets/img/TEST.md/wave.png)
 
@@ -50,7 +50,7 @@ Contents
   - Best practice
   - SEO
 
-- This was done for both Desktop and Mobile devices. 
+- This was done for both desktop and mobile devices. 
 
 ### Desktop Results
 
@@ -67,15 +67,15 @@ Contents
 
 ## Browser Compatibility 
 
-This website was tested within Chrome, Microsoft Edge & Firefox on desktop. 
+This website was tested on Chrome, Microsoft Edge, and Firefox on desktop. 
 
-The Website was tested in Chrome on mobile & tablet.
+The website was tested in Chrome on mobile and tablet. 
 
-Across all tested devices were consitant across browsers. 
+All tested devices were consistent across browsers.
 
 ### Responsivity 
 
-Responsivity was tested through Chrome Developer tools. The devices tested include: 
+Responsiveness was tested through Chrome Developer tools. The devices tested include:
 
 - Iphone 6/7/8 plus 
 - Iphone 12 Pro 
@@ -88,31 +88,31 @@ Responsivity was tested through Chrome Developer tools. The devices tested inclu
 - Galaxy S8+
 - Surface Duo
 
-I actively was able to test the website on Galaxy Fold, Ipad air & Blade 15 Razor Laptop 
+I was able to actively test the website on my Galaxy Fold, Ipad Air & Blade 15 Razor Laptop.
 
 ## Issues/ Bugs Found & Resolved
 
 **a) Labels & ids not linked on forms**
 
-- I used bootstrap docs for inserted forms, I changed id and not labels to match this was brought to attion when using WAVE and was a simple fix. 
+- I used bootstrap docs for inserted forms. I changed id and not labels to match. This was brought to attention when using WAVE and was a simple fix.
 
 **b) Forms submition** 
 
-- After posting the website for peer review, it came to my attention when submitting the contact it redirected to Code Institute default page. This allowed for a poor user experence and a drop in bounce rate, as there was no link back to current site. To fix this issue, contact-submission.html was created, this thanked the user for their contact but also provided a link back to the homepage.
+- After posting the website for peer review, it came to my attention that when submitting the contact it redirected to the Code Institute default page. This allowed for a poor user experience and a drop in bounce rate, as there was no link back to the current site. To fix this issue, contact-submission.html was created. This thanked the user for their contact but also provided a link back to the homepage.
 
 **c) Nav-bar reponsitivity**
 
-- The nav-bar was also lifted from bootstrap doc and made to only changes format on mobile devices. This did leave the button on and appeared in the hamburger dropdown. This was not ideal for user design and was easily targeted through media queries and id tag #button-remove.
+- The nav-bar was also lifted from the bootstrap doc and made to only change format on mobile devices. This did turn the button on and it appeared in the hamburger dropdown. This was not ideal for user design and was easily targeted through media queries and the id tag #button-remove.
 
 **d) Image not loading when live**
 
-- The image carousel on the contact.html page when deployed, 2 of them fell to default alt text. This was due to an addtion / added at the from of the href link for the 2 images. Once this was removed it worked perfectly. 
+- When the image carousel on the contact.html page is deployed, two of them fall to default alt text. This was due to an addition of "/" at the beginning of the href link for the two images. Once this was removed, it worked perfectly.
 
 ## Unresolved 
 
-- Improvement of performance on mobile device: results highlight that there is big acessibility was on all devices with 94% and above. The biggest difference was on performance from desktop to mobile. Lighthouse highlighted images size and format to next-gen. Further removing redudent CSS code from libary (boostrap), was highlighted.
+- Improvement of performance on mobile devices: results highlight that there is a lot of accessibility on all devices with 94% and above. The biggest difference was in performance from desktop to mobile. Lighthouse highlighted the image size and formatting of the image to next-gen. Further, indicating removing redundant CSS code from the library (boostrap) was highlighted.
 
-- Full screen images for smaller devices: Lighthouse also suggests not to have immage full up screen entirity on smaller devices. This was a personal preference and decided to keep this design feature on both index.html & view-van.html. 
+- Lighthouse also advises against making images full-screen on smaller devices. This was a personal preference and I decided to keep this design feature on both index.html and view-van.html.
 
 
 Back to [README.md](/README.md)
