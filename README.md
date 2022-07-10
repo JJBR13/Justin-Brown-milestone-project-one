@@ -1,9 +1,9 @@
 # Luv 4-Wheels 
 # Milestone Project 1 - Static Front-End Website 
 
-<h2 align="center"><img></h2>
-
 * DISCLAIMER: Luv 4-wheels is a finctional bussiness. This website for the developers portfolio and completions of Code Institutes course
+
+![Luv 4-vans, live mock-up](assets/img/README/website_mockup.png)
 
 # Live Poject 
 
@@ -201,10 +201,12 @@
 
 ### Logo Creation
 
-- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): This allowed the camper van icon to be used and imported. 
+- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported. 
 
 ## Credit 
 
 - Monika Patel: design layout for the "Feel The Wanderlust" gallery located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
 
 - Occasion Help: allowing simple and clear text to be formualted for the cancellation_policy.html [Find Here](https://help.getoccasion.com/article/506-sample-cancellation-and-refund-policies)
+
+- Multi Device Website Mockup Generator: enabling quick, professional mock-up of the site to be used within README.md [Find Here](https://techsini.com/multi-mockup/index.php)
