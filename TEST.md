@@ -3,7 +3,7 @@
 Contents
 
 - [Validator Testing](#validator-testing)
- *  + [HTML](#html)
+   + [HTML](#html)
     + [CSS](#css)
 - [WAVE](#wave)
 - [LightHouse](#lighthouse)
