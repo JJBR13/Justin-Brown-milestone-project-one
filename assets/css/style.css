@@ -503,6 +503,27 @@ ul {
     margin-top: 85px;
 }
 
+/* ---------------------------------------------------------------------------------Sign up complete*/
+
+.padding-down {
+    padding-top: 150px;
+}
+
+#small-print {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.sign-up-background {
+    height: 100vh;
+    margin-top: -22px;
+    background: url(../img/sign-up-bg.jpg) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* ---------------------------------------------------------------------------------Footer*/
 
 .footer-background {
