@@ -280,10 +280,6 @@ body {
 
 /* -------------------------------------------------------------Carasol CSS*/
 
-#gallery-top {
-    padding-top: 6rem;
-}
-
 .testimonial-carousel {
     height: 225px;
 }
@@ -296,10 +292,10 @@ body {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 1.25rem;
+    bottom: 1rem;
     left: 15%;
     padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: #fff;
@@ -335,6 +331,10 @@ body {
 }
 
 /* -----------------------------------------------Gallery CSS credit to Monika Patel, soruced from code pen*/
+
+#gallery-top {
+    padding-top: 6rem;
+}
 
 .gallery-padding {
     padding: 0 4px !important;
@@ -516,6 +516,7 @@ ul {
     height: 102.5vh;
     margin-top: -22px;
     background: url(../img/sign-up-bg.jpg) no-repeat center bottom fixed;
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -524,13 +525,6 @@ ul {
 
 #hide-box-sizing {
     box-sizing: content-box !important;
-}
-
-.darker-overlay {
-margin: 0;
-height: 100%;
-width: 100%;
-background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text-white {

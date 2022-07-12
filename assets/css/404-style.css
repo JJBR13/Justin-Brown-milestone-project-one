@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    background: url("../img/footer/bg-footer.jpg") no-repeat center / cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.darker-overlay {
+margin: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-404 {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-404 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #4C9F70;
+}
+
+.content-404 a:hover {
+    border-bottom: 2px solid #fff;
+}
+
