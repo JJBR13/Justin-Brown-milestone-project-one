@@ -478,14 +478,14 @@ ul {
 }
 
 .hover-form:focus {
-    border-width: 2px;
+    border-width: solid 2px;
     border-color: #496F5D;
     outline: 0;
     box-shadow: none;
 }
 
 .hover-form:hover {
-    border-width: 0px;
+    border-width: solid 2px;
     box-shadow: 0 0 0 0.15rem rgba(30, 117, 124, 0.2);
 }
 
