@@ -28,6 +28,7 @@ background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .content-404 a {
