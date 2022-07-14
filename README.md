@@ -117,8 +117,8 @@
 
 The logo of the business was added to be the favicon of the site. This was to further add clarity for the user when using a browser. Using a simple bit of imagery associated with the business. This enhances the experience for user stories: 
 
-> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.<br> 
-> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+> i. Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.<br> 
+> ii. As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
 
 ### Nav-bar 
 
@@ -143,7 +143,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 > i. Being a holiday bound client, I want to see a variety and style of campervans available to hire. 
 
 2. Reviews of past clients "What Our VanLifers Say". This was important to achieve the user story:
-> i. Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
+> I. Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
 
 3. The "Feel The Wanderlust Gallery". This was important to achieve the user story:
 > i. As a travel broker, I want an up-to-date gallery of images of the van and locations traveled to create insight and hype for 
@@ -196,6 +196,14 @@ the customer.<br>
 
 - This website provides a basic online platform for a rental campervan business and has been created using a mobile-first design which is fully responsive on all screen sizes.
 - The Luv4-Wheels site was created using the Bootstrap grid system, flex class, and documentation, which allows website content to look correct across all devices.
+
+### Testimonial & Image carousel
+
+- There are 5 carousels on the entirety of the site. The testimonial one is located on the index.html. A further three on the view-vans.html show images of vans offered. The final one is on the contact.html, used as a gallery and provides an interactive element to the page. 
+
+### Contact Form 
+
+- Situated on the contact.html page this allows the users to both book and contact the company with any enquires. 
 
 ## Future Releases 
 

@@ -1,7 +1,10 @@
 # Testing 
 
-Contents
+Testing was a requirement on this website for responsivity.
 
+## Contents
+
+- [Functional Testing](#functional-testing)
 - [Validator Testing](#validator-testing)
    + [HTML](#html)
     + [CSS](#css)
@@ -14,6 +17,211 @@ Contents
 - [Responsivity](#responsivity)
 - [Issues/ Bugs Found & Resolved](#issues-bugs-found--resolved)
 - [Unresolved](#unresolved)
+
+## Functional Testing 
+
+1. 
+
+Description: 
+
+Ensure the user can navigate NAV-BAR
+
+Steps: 
+
+I. Click View Vans 
+II. Redirect to View Van page. 
+III. Repeat for Home and Get in touch! pages 
+IV. Repeat all steps on all pages
+
+Expected: 
+
+NAV-BAR heading link user to relevant pages.
+
+Outcome: 
+
+NAV-BAR heading link user to relevant pages.
+
+2. 
+
+Description: 
+
+Ensure testimonial arrows scroll left and right
+
+Steps: 
+
+I. Click the right arrow to slide to the next testimonial 
+II.  Click the left arrow to slide back to the previous testimonial. 
+
+Expected: 
+
+Users can navigate left and right through testimonials. 
+
+Outcome: 
+
+Users can navigate left and right through testimonials. 
+
+The button takes the user to view vans 
+
+- Or take the user to contact.html, book now button (view-vans.html)
+
+Outcome: 
+
+The button takes the user to view vans 
+
+- Or take the user to contact.html, book now button (view-vans.html)
+
+3. 
+
+Description: 
+
+Ensure the user can use all buttons throughout the site
+
+Steps 
+
+I. Locate the "Select Your Van" button (how we work block, index.html)
+II. Click the button
+III. Links user to view-vans.html
+
+- These steps were also done for buttons book now (view-vans.html), linking the user to contact.html. 
+
+Expected: 
+
+The button takes the user to view vans 
+
+- Or take the user to contact.html, book now button (view-vans.html)
+
+Outcome: 
+
+The button takes the user to view vans 
+
+- Or take the user to contact.html, book now button (view-vans.html)
+
+4. 
+
+Description
+
+Ensure the user can only input email in the contact form 
+
+Steps: 
+
+I. Enter the invalid email, i.e email.gmail.com
+II. Complete form 
+III. Submit the form 
+IV. User gets an error message, "provide a valid email"
+V. Repeat all steps on all pages
+
+Expected: 
+
+Users can not submit the form with invalid email input. 
+
+Outcome: 
+
+Users can not submit the form with invalid email input. 
+
+5. 
+
+Description:
+
+Ensure user can not submit form without completing required fields. 
+
+Steps: 
+
+I. Fill out form. 
+II. Remove one required field at a time
+III. Press submit
+IV. Prompt to fill in removed field
+V. Repeat for all required fields
+
+Expected: 
+
+User can only submit form when all requied fields are completed. 
+
+Outcome: 
+
+User can only submit form when all requied fields are completed. 
+
+6. 
+
+Description: 
+
+Ensure subscribe bar works.
+
+Steps: 
+
+I. Enter email 
+II. Click "Sign me up!"
+III. User links to sign-up-complete.html 
+IV. Repeat all steps on all pages
+
+Expected: 
+
+The user gets redirected to thank you sign-up page. 
+
+Outcome: 
+
+The user gets redirected to thank you sign-up page. 
+
+7. 
+
+Description: 
+
+Ensure the user can only enter email input to subscribe bar. 
+
+Steps: 
+
+I. Enter a name, date, etc. 
+II. Click "Sign me up!"
+III. Prompt to enter valid email address
+IV. Repeat all steps on all pages
+
+Expected: 
+
+Users can not sign up without a vaild email address. 
+
+Outcome: 
+
+Users can not sign up without a vaild email address.
+
+8. 
+
+Description: 
+
+All social links open in a new tab. 
+
+Steps: 
+
+I. Open the website in the browser 
+II. Click the social media icon 
+III. Ensure it opens in a new window 
+IV. Repeat all steps on all pages
+
+Expected: 
+
+Social media pages open in new tabs. 
+
+Outcome: 
+
+Social media pages open in new tabs. 
+
+9. 
+
+Description:
+
+Link from subscription and contact form pages link home
+
+Steps: 
+
+I. Complete input 
+II. Links to the desired page (sign-up-complete.html or contact-submission.html)
+III. Home button link to home (index.html) page
+
+Expected: 
+
+User clicks home button and returns to the home page
+
+Outcome: 
+
+User clicks home button and returns to the home page
 
 ## Validator Testing
 
@@ -94,7 +302,7 @@ I was able to actively test the website on my Galaxy Fold, Ipad Air & Blade 15 R
 
 **a) Labels & ids not linked on forms**
 
-- I used bootstrap docs for inserted forms. I changed id and not labels to match. This was brought to attention when using WAVE and was a simple fix.
+- Sourced form from Boostrap library. The id were changed and not labels to match. This was brought to attention when using WAVE and was a simple fix.
 
 **b) Forms submition** 
 
@@ -107,6 +315,18 @@ I was able to actively test the website on my Galaxy Fold, Ipad Air & Blade 15 R
 **d) Image not loading when live**
 
 - When the image carousel on the contact.html page is deployed, two of them fall to default alt text. This was due to an addition of "/" at the beginning of the href link for the two images. Once this was removed, it worked perfectly.
+
+**e) Changing order of divs**
+
+- This was done on index.html for the block "How We Work" block, when appearing on mobile step two image was underneath step text. To make it more pleasing to the eye Bootstraps "flex-column-reverse" class was used. 
+
+**f) Form hover shrinking field boxes**
+
+- When hovering over the fields on the form (contact.html) boxes were shrinking, causing the form to change size and feel disorentating. This was simply fixed by adding CSS, border: 2px solid;. 
+
+**g) Spelling mistakes & Content wording**
+
+- When proofreading the website content was corrected for user readability and spelling mistakes were corrected. 
 
 ## Unresolved 
 
