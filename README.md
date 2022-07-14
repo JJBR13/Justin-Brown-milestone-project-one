@@ -106,10 +106,10 @@
  ![Flow diagram: website flow](assets/img/README/site_flow.png)
 
 - The website consists of 3 main pages:
-  - Hompage: Landing page, featuring links outbound to other pages and a wanderlust gallery. 
-  - View-Vans: provides information on the three types of vans offered for hire.
+  - Home: Landing page, featuring links outbound to other pages and a wanderlust gallery. 
+  - View-Vans: Provides information on the three types of vans offered for hire.
   - Contact: Provides a contact form to allow the client to enquire or book in.
-  - Cancellation policy: simply a page stating the policy of cancellation. 
+  - Cancellation policy: Simply a page stating the policy of cancellation. 
 - All pages have feature buttons, call to actions, or internal links to allow easy, comprehensive navigation through the entirety of the site, allowing for a better user experience.
 
 
@@ -117,7 +117,7 @@
 
 The logo of the business was added to be the favicon of the site. This was to further add clarity for the user when using a browser. Using a simple bit of imagery associated with the business. This enhances the experience for user stories: 
 
-> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.<br> 
 > As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
 
 ### Nav-bar 
@@ -131,8 +131,8 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 
 - These design choices were done to implement user story: 
 
-> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
-> Being a holiday bound client, I want to be able to show my family one mobile device. 
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.<br>
+> Being a holiday bound client, I want to be able to show my family one mobile device.<br>
 > Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
 
 ### Home 
@@ -147,7 +147,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 
 3. The "Feel The Wanderlust Gallery". This was important to achieve the user story:
 >  As a travel broker, I want an up-to-date gallery of images of the van and locations traveled to create insight and hype for 
-the customer.
+the customer.<br>
 > Having limited holiday options, I want a taste of whether this is a holiday I want to go on. 
 
 ### View Vans 
@@ -160,7 +160,7 @@ the customer.
 
 - This page housed the contact form which enables the user to be able to enquire about van availability, dates, and general questions. It also contained a checkbox to accept the cancelation policy. The purpose of this form was to address user stories: 
 
-> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers. 
+> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers.<br> 
 > Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
 
 ### Footer 
@@ -169,8 +169,8 @@ the customer.
 
 - The footer also houses the social links, using font-awesome icons. Showing the entirety and scale of the business, reviews from past clients, and posts of the adventure they undertook, this was important to aid user stories: 
 
-> Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
-> Having limited holiday options, I want a taste of whether this is a holiday I want to go on.
+> Having limited holiday options, I want to see previous customer comments as a trustworthy company.<br> 
+> Having limited holiday options, I want a taste of whether this is a holiday I want to go on.<br>
 > As a travel broker, I want to be able to promote your services to prospective clients as a holiday option. 
 
 
@@ -179,15 +179,15 @@ the customer.
 - This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the user to navigate back to the homepage if an error happens when navigating the site. 
 
 - Futher enhancing user story:
-> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.<br>
 > Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.
 
 ### Submission Pages
 
 - To allow for a better user experience, the creation of contact-submission.html and sign-up-complete.html were created. This allowed the user to easily see that the forms had been completed and return back to the homepage, decreasing the website bounce rate and continuing the session. This helped contribute to user stories: 
 
-> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
-> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers.
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.<br> 
+> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers.<br>
 > As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
  
 ## Current Features 
