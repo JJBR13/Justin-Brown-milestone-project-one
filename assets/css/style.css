@@ -489,6 +489,11 @@ ul {
     box-shadow: 0 0 0 0.15rem rgba(30, 117, 124, 0.2);
 }
 
+.form-check-input:checked {
+    background-color: #4C9F70;
+    border-color: #fff;
+}
+
 /* --------------------------------------------------------------------------------- Cancellation Page*/
 
 .cancel-img {
