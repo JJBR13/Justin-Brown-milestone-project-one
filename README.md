@@ -112,6 +112,14 @@
   - Cancellation policy: simply a page stating the policy of cancellation. 
 - All pages have feature buttons, call to actions, or internal links to allow easy, comprehensive navigation through the entirety of the site, allowing for a better user experience.
 
+
+### Favicon 
+
+The logo of the business was added to be the favicon of the site. This was to further add clarity for the user when using a browser. Using a simple bit of imagery associated with the business. This enhances the experience for user stories: 
+
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+
 ### Nav-bar 
 
 - The nav-bar was located throughout all pages in the same format to allow consistency and ease of use when using the site.
@@ -127,11 +135,39 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 > Being a holiday bound client, I want to be able to show my family one mobile device. 
 > Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
 
+### Home 
+
+- The home page located three important elements: 
+
+1. Style of vans offered and links to further information. This was important to achieve the user story:
+> Being a holiday bound client, I want to see a variety and style of campervans available to hire. 
+
+2. Reviews of past clients "What Our VanLifers Say". This was important to achieve the user story:
+> Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
+
+3. The "Feel The Wanderlust Gallery". This was important to achieve the user story:
+>  As a travel broker, I want an up-to-date gallery of images of the van and locations traveled to create insight and hype for 
+the customer.
+> Having limited holiday options, I want a taste of whether this is a holiday I want to go on. 
+
+### View Vans 
+
+- Provided description of the vans that can be hired, further directing the user to the contact page to be able to book desired van and dates. This was important for the user story: 
+
+> Being a holiday bound client, I want to see a variety and style of campervans available to hire.
+
+### Contact Page 
+
+- This page housed the contact form which enables the user to be able to enquire about van availability, dates, and general questions. It also contained a checkbox to accept the cancelation policy. The purpose of this form was to address user stories: 
+
+> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers. 
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
+
 ### Footer 
 
-- The footer was located on all main pages (index.html, view-vans.html and contact.html), this allow consitancy for the user. 
+- The footer was located on all main pages (index.html, view-vans.html, and contact.html), this allows consistency for the user.
 
-- Further the footer located social links, using font-awesome icons. Showing the entirity and scale of the bussiness, review from past clients and posts of thier adventure they undertook. This was important to aid user stories: 
+- The footer also houses the social links, using font-awesome icons. Showing the entirety and scale of the business, reviews from past clients, and posts of the adventure they undertook, this was important to aid user stories: 
 
 > Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
 > Having limited holiday options, I want a taste of whether this is a holiday I want to go on.
