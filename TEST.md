@@ -20,7 +20,7 @@ Testing was a requirement on this website for responsivity.
 
 ## Functional Testing 
 
-1. 
+### 1. 
 
 Description: 
 
@@ -41,7 +41,7 @@ Outcome:
 
 NAV-BAR heading link user to relevant pages.
 
-2. 
+### 2. 
 
 Description: 
 
@@ -70,7 +70,7 @@ The button takes the user to view vans
 
 - Or take the user to contact.html, book now button (view-vans.html)
 
-3. 
+### 3. 
 
 Description: 
 
@@ -96,7 +96,7 @@ The button takes the user to view vans
 
 - Or take the user to contact.html, book now button (view-vans.html)
 
-4. 
+### 4. 
 
 Description
 
@@ -118,7 +118,7 @@ Outcome:
 
 Users can not submit the form with invalid email input. 
 
-5. 
+### 5. 
 
 Description:
 
@@ -140,7 +140,7 @@ Outcome:
 
 User can only submit form when all requied fields are completed. 
 
-6. 
+### 6. 
 
 Description: 
 
@@ -161,7 +161,7 @@ Outcome:
 
 The user gets redirected to thank you sign-up page. 
 
-7. 
+### 7. 
 
 Description: 
 
@@ -182,7 +182,7 @@ Outcome:
 
 Users can not sign up without a vaild email address.
 
-8. 
+### 8. 
 
 Description: 
 
@@ -203,7 +203,7 @@ Outcome:
 
 Social media pages open in new tabs. 
 
-9. 
+### 9. 
 
 Description:
 
