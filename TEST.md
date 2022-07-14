@@ -249,7 +249,7 @@ User clicks home button and returns to the home page
 
   - On the initial check, this highlighted a problem with headings within the gallery section. See below:
 
-[HTML Validator first results](assets/img/TEST.md/html_val_varning.png)
+[HTML Validator first results](assets/img/TEST.md/html%20_val_warning.png)
 
 ### CSS 
 
@@ -278,12 +278,12 @@ User clicks home button and returns to the home page
 
 ### Desktop Results
 
-![Lighthouse Desktop Validator Results](assets/img/TEST.md/lighthouse_desktop.png)
+![Lighthouse Desktop Validator Results](assets/img/TEST.md/desktop.png)
 
 
 ### Mobile Results 
 
-![Lighthouse Mobile Validator Results](assets/img/TEST.md/lighthouse_mobile.png)
+![Lighthouse Mobile Validator Results](assets/img/TEST.md/mobile.png)
 
 ## A11y Color Contrast Accessibility Validator
 
