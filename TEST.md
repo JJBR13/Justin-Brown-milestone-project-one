@@ -28,9 +28,9 @@ Ensure the user can navigate NAV-BAR
 
 Steps: 
 
-I. Click View Vans 
-II. Redirect to View Van page. 
-III. Repeat for Home and Get in touch! pages 
+I. Click View Vans<br>
+II. Redirect to View Van page.<br> 
+III. Repeat for Home and Get in touch! pages<br> 
 IV. Repeat all steps on all pages
 
 Expected: 
@@ -49,7 +49,7 @@ Ensure testimonial arrows scroll left and right
 
 Steps: 
 
-I. Click the right arrow to slide to the next testimonial 
+I. Click the right arrow to slide to the next testimonial<br> 
 II.  Click the left arrow to slide back to the previous testimonial. 
 
 Expected: 
@@ -78,8 +78,8 @@ Ensure the user can use all buttons throughout the site
 
 Steps 
 
-I. Locate the "Select Your Van" button (how we work block, index.html)
-II. Click the button
+I. Locate the "Select Your Van" button (how we work block, index.html)<br>
+II. Click the button<br>
 III. Links user to view-vans.html
 
 - These steps were also done for buttons book now (view-vans.html), linking the user to contact.html. 
@@ -104,10 +104,10 @@ Ensure the user can only input email in the contact form
 
 Steps: 
 
-I. Enter the invalid email, i.e email.gmail.com
-II. Complete form 
-III. Submit the form 
-IV. User gets an error message, "provide a valid email"
+I. Enter the invalid email, i.e email.gmail.com<br>
+II. Complete form <br>
+III. Submit the form <br>
+IV. User gets an error message, "provide a valid email"<br>
 V. Repeat all steps on all pages
 
 Expected: 
@@ -126,10 +126,10 @@ Ensure user can not submit form without completing required fields.
 
 Steps: 
 
-I. Fill out form. 
-II. Remove one required field at a time
-III. Press submit
-IV. Prompt to fill in removed field
+I. Fill out form.<br> 
+II. Remove one required field at a time<br>
+III. Press submit<br>
+IV. Prompt to fill in removed field<br>
 V. Repeat for all required fields
 
 Expected: 
@@ -148,9 +148,9 @@ Ensure subscribe bar works.
 
 Steps: 
 
-I. Enter email 
-II. Click "Sign me up!"
-III. User links to sign-up-complete.html 
+I. Enter email<br> 
+II. Click "Sign me up!"<br>
+III. User links to sign-up-complete.html<br> 
 IV. Repeat all steps on all pages
 
 Expected: 
@@ -169,9 +169,9 @@ Ensure the user can only enter email input to subscribe bar.
 
 Steps: 
 
-I. Enter a name, date, etc. 
-II. Click "Sign me up!"
-III. Prompt to enter valid email address
+I. Enter a name, date, etc.<br> 
+II. Click "Sign me up!"<br>
+III. Prompt to enter valid email address<br>
 IV. Repeat all steps on all pages
 
 Expected: 
@@ -190,9 +190,9 @@ All social links open in a new tab.
 
 Steps: 
 
-I. Open the website in the browser 
-II. Click the social media icon 
-III. Ensure it opens in a new window 
+I. Open the website in the browser<br> 
+II. Click the social media icon<br> 
+III. Ensure it opens in a new window <br>
 IV. Repeat all steps on all pages
 
 Expected: 
@@ -211,8 +211,8 @@ Link from subscription and contact form pages link home
 
 Steps: 
 
-I. Complete input 
-II. Links to the desired page (sign-up-complete.html or contact-submission.html)
+I. Complete input<br> 
+II. Links to the desired page (sign-up-complete.html or contact-submission.html)<br>
 III. Home button link to home (index.html) page
 
 Expected: 
