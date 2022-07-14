@@ -39,7 +39,9 @@
 - [Testing](#testing)
 - [Libraries, Frameworks & Programs](#libraries-frameworks--programs)
 - [Deployment](#depolyment)
+    + [Project Creation](#project-creation)
     + [GitHub Pages](#github-pages)
+    + [Local Deployment](#local-deployment)
 - [References & Credit](#references--credit)
     + [Logo Creation](#logo-creation)
 
@@ -58,7 +60,7 @@
 
 ### Limited Holiday Options 
 
-*Defining the user that may have limiting factors for their holiday away. For example,someone who dislikes flying or leave wanting a domestic holiday.*
+*Defining the user that may have limiting factors for their holiday away. For example, someone who dislikes flying or leave wanting a domestic holiday.*
 
 * I want a taste of whether this is a holiday I want to go on. 
 * Be able to contact support with easily, with concerns or questions that may need answers. 
@@ -186,7 +188,21 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
   
 
 
-# Depolyment 
+# Deployment 
+
+### Project Creation 
+
+- This project was created through GitHub: 
+ 1. Locating repository, clicking on the "New" button.
+ 2. Selecting the relevant template:  "Code-Institute-Org/gitpod-full-template" 
+ 3. Adding the repository name "Justin-Brown-milestone-project-one".
+ 4. Clicking the button "Create repository". 
+
+- Adding the Chrome extension "GitPod" created an online coding platform, enabling the use of bash terminals throughout the project. The below "git commands" were used: 
+
+1. git add . - This command for multiple files to the staging area before commiting. 
+2. git commit -m "Message explaining upadate" - This command explained changes that were done to the repository. 
+3. git push - This command was used to push all committed changes to the GitHub Repository. 
 
 ### Github Pages 
 
@@ -198,6 +214,15 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 6. Click Save. The page will automatically refresh. With a notification at the top of the page, with the [link](https://jjbr13.github.io/Justin-Brown-milestone-project-one/) to your published site. 
 7. You can return to the Github pages section to access the link.
 
+### Local Deployment 
+
+1. Navigate to the [Github](https://github.com/JJBR13/Justin-Brown-milestone-project-one).
+2. Click the "Code" dropdown button. 
+3. Select "Download ZIP" or " Open with GitHub Desktop"
+4. Unpackage ZIP file locally with Integrated Development Environment (IDE), this process stops here. 
+5. Sign in to GitHub Desktop.
+6. Select repository you desire to clone.  
+7. Click "Clone Button".
 
 # References & Credit 
 
@@ -209,7 +234,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 - [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/photos/search/): Open resources to get media files, such as images throughout the site.
 - [Coding.tools](https://coding.tools/hex-to-rgba): Allow for the simple conversion of Hex to RGBA colors. 
 
-### Logo Creation
+
 
 - Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported, creating the company logo and favicon. 
 
@@ -220,3 +245,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 - Camptoo: used this company's cancellation policy text to create my cancellation_policy.html file. [Find Here](https://www.camptoo.co.uk/policies/cancellation/flex)
 
 - Multi Device Website Mockup Generator: enabling quick, professional mock-up of the site to be used within README.md [Find Here](https://techsini.com/multi-mockup/index.php)
+
+### Logo Creation
+
+- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported, creating the company logo and favicon. 
