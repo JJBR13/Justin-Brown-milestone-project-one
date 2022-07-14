@@ -39,7 +39,9 @@ NAV-BAR heading link user to relevant pages.
 
 Outcome: 
 
-NAV-BAR heading link user to relevant pages.
+NAV-BAR heading link user to relevant pages. 
+
+<hr>
 
 ### 2. 
 
@@ -70,6 +72,8 @@ The button takes the user to view vans
 
 - Or take the user to contact.html, book now button (view-vans.html)
 
+<hr>
+
 ### 3. 
 
 Description: 
@@ -95,6 +99,8 @@ Outcome:
 The button takes the user to view vans 
 
 - Or take the user to contact.html, book now button (view-vans.html)
+
+<hr>
 
 ### 4. 
 
@@ -140,6 +146,8 @@ Outcome:
 
 User can only submit form when all requied fields are completed. 
 
+<hr>
+
 ### 6. 
 
 Description: 
@@ -160,6 +168,8 @@ The user gets redirected to thank you sign-up page.
 Outcome: 
 
 The user gets redirected to thank you sign-up page. 
+
+<hr>
 
 ### 7. 
 
@@ -182,6 +192,8 @@ Outcome:
 
 Users can not sign up without a vaild email address.
 
+<hr>
+
 ### 8. 
 
 Description: 
@@ -203,6 +215,8 @@ Outcome:
 
 Social media pages open in new tabs. 
 
+<hr>
+
 ### 9. 
 
 Description:
@@ -222,6 +236,8 @@ User clicks home button and returns to the home page
 Outcome: 
 
 User clicks home button and returns to the home page
+
+<hr>
 
 ## Validator Testing
 
