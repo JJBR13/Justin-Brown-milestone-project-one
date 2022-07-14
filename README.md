@@ -25,10 +25,6 @@
     + [Typography](#typography)
     + [Images](#images)
 - [Website Constuction](#website-constuction)
-    + [Website Layout](#webpage-layout)
-    + [Nav-bar](#nav-bar)
-    + [404 Error Page](#404-error-page)
-    + [Form Submission Pages](#submission-pages)
 - [Current Features](#current-features)
     + [Responsive On All Devices](#responsive-on-all-devices)
 - [Future Releases](#future-releases)
@@ -50,29 +46,29 @@
 
 ## User Stories 
 
-### Holiday Bound Clients 
+### Holiday Bound Client
 
-*These are users already looking for a holiday or been referred by family, friends or existing clients.*
+*These are users already looking for a holiday or have been referred by family, friends, or existing clients.*
 
-* Want to see variety and style of campervans available to hire. 
-* Information on the different vans, allowing educated choice that best suits them. 
-* Easy viewing, not stressful and allowing easily contactable. 
+* Being a holiday bound client, I want to see a variety and style of campervans available to hire. 
+* Being a holiday bound client, I want to be able to show my family one mobile device.  
+* Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
 
-### Limited Holiday Options 
+### Limited Holiday Option
 
-*Defining the user that may have limiting factors for their holiday away. For example, someone who dislikes flying or leave wanting a domestic holiday.*
+*Defining the user that may have limiting factors for their holiday away. For example, someone who dislikes flying or leaves wanting a domestic holiday.*
 
-* I want a taste of whether this is a holiday I want to go on. 
-* Be able to contact support with easily, with concerns or questions that may need answers. 
-* See previous customer comments, allowing trust within the company. 
+* Having limited holiday options, I want a taste of whether this is a holiday I want to go on. 
+* Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers. 
+* Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
 
 ### Travel broker 
 
 *Travel agents who collaborate with the company to book vans throughout the year* 
 
-* There are travel companies within the industry that use Luv 4-Wheels to provide options to prospective clients as a holiday option.
-* Easy to navigate site to be able to show prospective clients the holiday services offered.
-* Up-to-date gallery of images of the van and locations travelled to create insight and hype for the customer.
+* As a travel broker, I want to be able to promote your services to prospective clients as a holiday option.
+* As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+* As a travel broker, I want an up-to-date gallery of images of the van and locations traveled to create insight and hype for the customer.
 
 ## Design 
 
@@ -120,16 +116,43 @@
 
 - The nav-bar was located throughout all pages in the same format to allow consistency and ease of use when using the site.
 In desktop and tablet views, the nav-bar is horizontally positioned in list format with a button located on the right side to contact the company.
+
 - The nav-bar is not "sticky", allowing for it to disappear with scroll. This was elected so the images and content of the lower blocks could utilise the entire width of the page at all times.
+
 - The nav-bar is responsive, meaning when 325px is reached (mobile devices), the nav-bar moves into hamburger format, allowing the screen not to be cluttered. Furthermore, the button style is removed and appears as other pages, do within the hamburger dropdown. 
+
+- These design choices were done to implement user story: 
+
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+> Being a holiday bound client, I want to be able to show my family one mobile device. 
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
+
+### Footer 
+
+- The footer was located on all main pages (index.html, view-vans.html and contact.html), this allow consitancy for the user. 
+
+- Further the footer located social links, using font-awesome icons. Showing the entirity and scale of the bussiness, review from past clients and posts of thier adventure they undertook. This was important to aid user stories: 
+
+> Having limited holiday options, I want to see previous customer comments as a trustworthy company. 
+> Having limited holiday options, I want a taste of whether this is a holiday I want to go on.
+> As a travel broker, I want to be able to promote your services to prospective clients as a holiday option. 
+
 
 ### 404 Error Page 
 
-- This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the user to navigate back to the homepage if an error happens when navigating the site. -This features in-line CSS styling and a simple link back to the homepage. If there is any issue relating to the style.css file or bootstrap documentation, this page will still be active and within the selected style.
+- This is [.html](https://github.com/JJBR13/Justin-Brown-milestone-project-one/blob/main/404.html) file that has been created and customised to enable the user to navigate back to the homepage if an error happens when navigating the site. 
+
+- Futher enhancing user story:
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable.
 
 ### Submission Pages
 
-- To allow for a better user experience, the creation of contact-submission.html and sign-up-complete.html were created. This allowed the user to easily see that the forms had been completed and return back to the homepage, decreasing the website bounce rate and continuing the session.
+- To allow for a better user experience, the creation of contact-submission.html and sign-up-complete.html were created. This allowed the user to easily see that the forms had been completed and return back to the homepage, decreasing the website bounce rate and continuing the session. This helped contribute to user stories: 
+
+> Being a holiday bound client, I want easy viewing, not stressful, and allowing easily contactable. 
+> Having limited holiday options, I want to be able to contact support easily, with concerns or questions that may need answers.
+> As a travel broker, I want an easy-to-navigate site to be able to show prospective clients the holiday services offered.
  
 ## Current Features 
 
@@ -168,6 +191,9 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 - [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/contents/#bootstrap-source-code)
   - Bootstrap v5.2 was used throughout the entire site to make it responsive. Containers, grid system, D-flex, and bottom classes are used. Obtaining additional documentation to create the navigation bar, contact form, carousel, and buttons.
 
+- [Font Awesome}(https://fontawesome.com/)
+  - Used for social media icons in footer.
+
 - [Google Fonts](https://fonts.google.com/)
  - From the Google Fonts library, fonts were selected for the site and imported to style.css file
 
@@ -186,7 +212,6 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 - [Adobe Suite](https://www.adobe.com/uk/)
   - Used to adjust/enhance images and create the logo for the business.
   
-
 
 # Deployment 
 
@@ -219,10 +244,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 1. Navigate to the [Github](https://github.com/JJBR13/Justin-Brown-milestone-project-one).
 2. Click the "Code" dropdown button. 
 3. Select "Download ZIP" or " Open with GitHub Desktop"
-4. Unpackage ZIP file locally with Integrated Development Environment (IDE), this process stops here. 
-5. Sign in to GitHub Desktop.
-6. Select repository you desire to clone.  
-7. Click "Clone Button".
+4. Unpackage ZIP file locally with Integrated Development Environment (IDE).
 
 # References & Credit 
 
@@ -234,10 +256,7 @@ In desktop and tablet views, the nav-bar is horizontally positioned in list form
 - [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/photos/search/): Open resources to get media files, such as images throughout the site.
 - [Coding.tools](https://coding.tools/hex-to-rgba): Allow for the simple conversion of Hex to RGBA colors. 
 
-
-
-- Flat Icon (<a href="https://www.flaticon.com/free-icons/camper" title="camper icons">Camper icons created by Freepik - Flaticon</a>): this allowed the camper van icon to be used and imported, creating the company logo and favicon. 
-
+ 
 ## Credit 
 
 - Monika Patel: the design layout for the "Feel The Wanderlust" gallery is located within the index.html [Find Here](https://codepen.io/IamMonikaPatel/pen/yqGKgj)
